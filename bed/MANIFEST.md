@@ -1,13 +1,17 @@
-# 天然气制氨 BED 包清单
+# AMMONIA BED 包清单
 
-生成时间：2026-11-24T08:24:43.005669+00:00
+生成时间：2026-11-24T21:17:56.480617+00:00
 
-> 定位：**BED 方案级可用**。用于路线比选、规模论证与下一阶段设计输入；不用于施工、采购、许可或安全决策。
+**工厂**：天然气制氨（ammonia-1, 1500 t/d / steam methane reforming / 低压氨合成）
+
+**上游**：`ChemE-as-Code/process-library process:ammonia-1`
+
+> 定位：**BED 方案级可用**。用于路线比选、规模论证与 FEED 设计输入；不用于施工、采购、许可或安全决策。
 
 | 文件 | 大小 (KB) | SHA256 前 16 位 |
 |---|---:|---|
-| cad/ammonia-bed.FCStd | 565.4 | `206c13a4fcc6065f` |
-| cad/ammonia-bed.step | 3847.7 | `36fd013b3985e209` |
+| cad/ammonia-bed.FCStd | 565.4 | `37def1fa8456efd6` |
+| cad/ammonia-bed.step | 3847.7 | `a8255b1dd7a6f835` |
 | cad/freecad-report.json | 0.2 | `5e1cdb69e6901f33` |
 | cad/plant-model.json | 491.3 | `0baf17b1c1ec9e2a` |
 | design-basis.yaml | 5.4 | `21d2ca44784989c8` |
@@ -25,7 +29,7 @@
 | lca/brightway-result.json | 0.6 | `62daf72acdee58a8` |
 | lca/brightway-result.md | 0.8 | `31a31985902aab10` |
 | lca/cheme-lca-results.md | 9.1 | `8a4365aec2a349eb` |
-| MANIFEST.md | 4.3 | `583f63a530a66ead` |
+| MANIFEST.md | 4.2 | `4e5e6df48d86be7b` |
 | pid/P-101.svg | 65.0 | `654e1d0b43e98190` |
 | pid/P-102.svg | 95.9 | `9d18dfc94a2d622a` |
 | pid/P-103.svg | 87.0 | `b6e28c9bc5ff73a1` |

@@ -1,17 +1,20 @@
 {
-  "generated_at": "2026-11-24T08:24:43.005669+00:00",
-  "plant": "1500 t/d natural-gas ammonia (concept/BED)",
-  "level": "BED 方案级可用：用于方案比选与下一步设计输入，不用于施工、采购或安全决策",
+  "generated_at": "2026-11-24T21:17:56.480617+00:00",
+  "plant": "天然气制氨（ammonia-1, 1500 t/d / steam methane reforming / 低压氨合成）",
+  "level": "BED 方案级可用：用于方案比选与 FEED 设计输入；不用于施工、采购、许可或安全决策",
+  "upstream": "ChemE-as-Code/process-library process:ammonia-1",
+  "cheme_version": "cheme-as-code >= 1.5",
+  "freecad_version": "FreeCAD 1.0.0",
   "artifacts": [
     {
       "path": "cad/ammonia-bed.FCStd",
-      "bytes": 578924,
-      "sha256_16": "206c13a4fcc6065f"
+      "bytes": 578922,
+      "sha256_16": "37def1fa8456efd6"
     },
     {
       "path": "cad/ammonia-bed.step",
       "bytes": 3940084,
-      "sha256_16": "36fd013b3985e209"
+      "sha256_16": "a8255b1dd7a6f835"
     },
     {
       "path": "cad/freecad-report.json",
@@ -100,13 +103,13 @@
     },
     {
       "path": "MANIFEST.json",
-      "bytes": 9119,
-      "sha256_16": "439ee8d8c5188d63"
+      "bytes": 8985,
+      "sha256_16": "09e2f8c923b3c714"
     },
     {
       "path": "MANIFEST.md",
-      "bytes": 4363,
-      "sha256_16": "583f63a530a66ead"
+      "bytes": 4291,
+      "sha256_16": "4e5e6df48d86be7b"
     },
     {
       "path": "pid/P-101.svg",

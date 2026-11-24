@@ -58,15 +58,28 @@ def line_lengths(model) -> dict:
 
 
 def stream_conditions(flowsheet) -> dict:
+    """从 flowsheet streams 读取 stream -> line 的压力/温度。
+
+    兼容两种结构：
+    - reaction 工艺：state.design.pressure/temperature.value
+    - terminal 工艺：state.average.pressure/temperature.value
+    """
     out = {}
     for stream in flowsheet.get("streams", []):
-        design = (stream.get("state") or {}).get("design") or {}
+        state = stream.get("state") or {}
+        # state.average 优先（terminal 工艺），fallback state.cases.average，再 fallback state.design
+        src = (
+            state.get("average")
+            or (state.get("cases") or {}).get("average")
+            or state.get("design")
+            or {}
+        )
         for link in stream.get("links", []):
             if link.get("target") != "line":
                 continue
             out[link["ref"]] = {
-                "pressure_kpa": (design.get("pressure") or {}).get("value"),
-                "temperature_k": (design.get("temperature") or {}).get("value"),
+                "pressure_kpa": (src.get("pressure") or {}).get("value"),
+                "temperature_k": (src.get("temperature") or {}).get("value"),
                 "stream": stream.get("id"),
             }
     return out
