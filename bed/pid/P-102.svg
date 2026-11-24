@@ -1,0 +1,1375 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420.0" height="297.0" viewBox="0.0 0.0 420.0 297.0">
+  <rect x="0.0" y="0.0" width="420.0" height="297.0" fill="#f0f0f0"/>
+  <metadata>DEXPI Diagram: P-102 - Generated with pyDEXPI 2.1.0 - https://github.com/process-intelligence-research/pyDEXPI</metadata>
+  <g id="diagram-P-102" class="diagram">
+    <g class="border" id="PlantModel1_Drawing1_Groups1">
+      <polyline points="1.0,296.0 419.0,296.0 419.0,1.0 1.0,1.0 1.0,296.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <polyline points="4.0,293.0 416.0,293.0 416.0,4.0 4.0,4.0 4.0,293.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.6" vector-effect="non-scaling-stroke"/>
+      <text x="21.166666667" y="1.940499999999986" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">1</text>
+      <text x="21.166666667" y="294.0905" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">1</text>
+      <polyline points="38.333333333,293.0 38.333333333,296.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <polyline points="38.333333333,4.0 38.333333333,1.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <text x="55.5" y="1.940499999999986" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">2</text>
+      <text x="55.5" y="294.0905" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">2</text>
+      <polyline points="72.666666667,293.0 72.666666667,296.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <polyline points="72.666666667,4.0 72.666666667,1.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <text x="89.833333333" y="1.940499999999986" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">3</text>
+      <text x="89.833333333" y="294.0905" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">3</text>
+      <polyline points="107.0,293.0 107.0,296.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <polyline points="107.0,4.0 107.0,1.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <text x="124.166666667" y="1.940499999999986" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">4</text>
+      <text x="124.166666667" y="294.0905" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">4</text>
+      <polyline points="141.333333333,293.0 141.333333333,296.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <polyline points="141.333333333,4.0 141.333333333,1.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <text x="158.5" y="1.940499999999986" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">5</text>
+      <text x="158.5" y="294.0905" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">5</text>
+      <polyline points="175.666666667,293.0 175.666666667,296.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <polyline points="175.666666667,4.0 175.666666667,1.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <text x="192.833333333" y="1.940499999999986" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">6</text>
+      <text x="192.833333333" y="294.0905" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">6</text>
+      <polyline points="210.0,293.0 210.0,296.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <polyline points="210.0,4.0 210.0,1.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <text x="227.166666667" y="1.940499999999986" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">7</text>
+      <text x="227.166666667" y="294.0905" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">7</text>
+      <polyline points="244.333333333,293.0 244.333333333,296.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <polyline points="244.333333333,4.0 244.333333333,1.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <text x="261.5" y="1.940499999999986" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">8</text>
+      <text x="261.5" y="294.0905" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">8</text>
+      <polyline points="278.666666667,293.0 278.666666667,296.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <polyline points="278.666666667,4.0 278.666666667,1.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <text x="295.833333333" y="1.940499999999986" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">9</text>
+      <text x="295.833333333" y="294.0905" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">9</text>
+      <polyline points="313.0,293.0 313.0,296.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <polyline points="313.0,4.0 313.0,1.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <text x="330.166666667" y="1.940499999999986" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">10</text>
+      <text x="330.166666667" y="294.0905" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">10</text>
+      <polyline points="347.333333333,293.0 347.333333333,296.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <polyline points="347.333333333,4.0 347.333333333,1.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <text x="364.5" y="1.940499999999986" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">11</text>
+      <text x="364.5" y="294.0905" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">11</text>
+      <polyline points="381.666666667,293.0 381.666666667,296.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <polyline points="381.666666667,4.0 381.666666667,1.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <text x="398.833333333" y="1.940499999999986" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">12</text>
+      <text x="398.833333333" y="294.0905" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">12</text>
+      <polyline points="208.5,296.0 210.0,293.0 211.5,296.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <polyline points="208.5,1.0 210.0,4.0 211.5,1.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <text x="2.425" y="274.453" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">H</text>
+      <text x="417.575" y="274.453" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">H</text>
+      <polyline points="1.0,256.875 4.0,256.875" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <polyline points="416.0,256.875 419.0,256.875" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <text x="2.425" y="238.328" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">G</text>
+      <text x="417.575" y="238.328" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">G</text>
+      <polyline points="1.0,220.75 4.0,220.75" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <polyline points="416.0,220.75 419.0,220.75" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <text x="2.425" y="202.203" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">F</text>
+      <text x="417.575" y="202.203" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">F</text>
+      <polyline points="1.0,184.625 4.0,184.625" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <polyline points="416.0,184.625 419.0,184.625" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <text x="2.425" y="166.078" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">E</text>
+      <text x="417.575" y="166.078" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">E</text>
+      <polyline points="1.0,148.5 4.0,148.5" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <polyline points="416.0,148.5 419.0,148.5" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <text x="2.425" y="129.953" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">D</text>
+      <text x="417.575" y="129.953" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">D</text>
+      <polyline points="1.0,112.375 4.0,112.375" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <polyline points="416.0,112.375 419.0,112.375" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <text x="2.425" y="93.828" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">C</text>
+      <text x="417.575" y="93.828" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">C</text>
+      <polyline points="1.0,76.25 4.0,76.25" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <polyline points="416.0,76.25 419.0,76.25" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <text x="2.425" y="57.703" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">B</text>
+      <text x="417.575" y="57.703" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">B</text>
+      <polyline points="1.0,40.125 4.0,40.125" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <polyline points="416.0,40.125 419.0,40.125" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <text x="2.425" y="21.577999999999975" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">A</text>
+      <text x="417.575" y="21.577999999999975" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.85" fill="rgb(0,0,0)">A</text>
+      <polyline points="1.0,150.0 4.0,148.5 1.0,147.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+      <polyline points="419.0,150.0 416.0,148.5 419.0,147.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+    </g>
+    <g class="label" id="PlantModel1_Drawing1_Groups2">
+      <polyline points="296.0,293.0 296.0,258.0 416.0,258.0 416.0,293.0 296.0,293.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.58" vector-effect="non-scaling-stroke"/>
+      <polyline points="296.0,293.0 296.0,288.0 314.0,288.0 314.0,293.0 296.0,293.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.28" vector-effect="non-scaling-stroke"/>
+      <text x="297.2" y="291.25" text-anchor="start" dominant-baseline="text-bottom" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">APPROVED BY</text>
+      <polyline points="314.0,293.0 314.0,288.0 344.0,288.0 344.0,293.0 314.0,293.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.28" vector-effect="non-scaling-stroke"/>
+      <text x="315.2" y="291.25" text-anchor="start" dominant-baseline="text-bottom" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)"></text>
+      <polyline points="344.0,293.0 344.0,288.0 358.4,288.0 358.4,293.0 344.0,293.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.28" vector-effect="non-scaling-stroke"/>
+      <text x="345.2" y="291.25" text-anchor="start" dominant-baseline="text-bottom" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)"></text>
+      <polyline points="358.4,293.0 358.4,288.0 380.0,288.0 380.0,293.0 358.4,293.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.28" vector-effect="non-scaling-stroke"/>
+      <text x="359.6" y="291.25" text-anchor="start" dominant-baseline="text-bottom" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">DRAWING NO</text>
+      <polyline points="380.0,293.0 380.0,288.0 416.0,288.0 416.0,293.0 380.0,293.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.28" vector-effect="non-scaling-stroke"/>
+      <text x="381.2" y="291.25" text-anchor="start" dominant-baseline="text-bottom" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">P-102</text>
+      <polyline points="296.0,288.0 296.0,283.0 314.0,283.0 314.0,288.0 296.0,288.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.28" vector-effect="non-scaling-stroke"/>
+      <text x="297.2" y="286.25" text-anchor="start" dominant-baseline="text-bottom" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">CHECKED BY</text>
+      <polyline points="314.0,288.0 314.0,283.0 344.0,283.0 344.0,288.0 314.0,288.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.28" vector-effect="non-scaling-stroke"/>
+      <text x="315.2" y="286.25" text-anchor="start" dominant-baseline="text-bottom" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)"></text>
+      <polyline points="344.0,288.0 344.0,283.0 358.4,283.0 358.4,288.0 344.0,288.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.28" vector-effect="non-scaling-stroke"/>
+      <polyline points="358.4,288.0 358.4,283.0 380.0,283.0 380.0,288.0 358.4,288.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.28" vector-effect="non-scaling-stroke"/>
+      <text x="359.6" y="286.25" text-anchor="start" dominant-baseline="text-bottom" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">PROJECT</text>
+      <polyline points="380.0,288.0 380.0,283.0 416.0,283.0 416.0,288.0 380.0,288.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.28" vector-effect="non-scaling-stroke"/>
+      <text x="381.2" y="286.25" text-anchor="start" dominant-baseline="text-bottom" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">AMMONIA-1</text>
+      <polyline points="296.0,283.0 296.0,278.0 314.0,278.0 314.0,283.0 296.0,283.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.28" vector-effect="non-scaling-stroke"/>
+      <text x="297.2" y="281.25" text-anchor="start" dominant-baseline="text-bottom" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">CREATED BY</text>
+      <polyline points="314.0,283.0 314.0,278.0 344.0,278.0 344.0,283.0 314.0,283.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.28" vector-effect="non-scaling-stroke"/>
+      <text x="315.2" y="281.25" text-anchor="start" dominant-baseline="text-bottom" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">Process engineering</text>
+      <polyline points="344.0,283.0 344.0,278.0 358.4,278.0 358.4,283.0 344.0,283.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.28" vector-effect="non-scaling-stroke"/>
+      <text x="345.2" y="281.25" text-anchor="start" dominant-baseline="text-bottom" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">2026-10-29</text>
+      <polyline points="314.0,278.0 314.0,273.0 344.0,273.0 344.0,278.0 314.0,278.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.28" vector-effect="non-scaling-stroke"/>
+      <text x="315.2" y="276.25" text-anchor="start" dominant-baseline="text-bottom" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">NAME</text>
+      <polyline points="344.0,278.0 344.0,273.0 358.4,273.0 358.4,278.0 344.0,278.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.28" vector-effect="non-scaling-stroke"/>
+      <text x="345.2" y="276.25" text-anchor="start" dominant-baseline="text-bottom" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">DATE</text>
+      <polyline points="358.4,283.0 358.4,273.0 416.0,273.0 416.0,283.0 358.4,283.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.28" vector-effect="non-scaling-stroke"/>
+      <text x="359.6" y="279.2" text-anchor="start" dominant-baseline="text-bottom" font-family="'Calibri', Arial" font-size="4.0" fill="rgb(0,0,0)">Reformer furnace</text>
+      <polyline points="358.4,273.0 358.4,268.0 380.0,268.0 380.0,273.0 358.4,273.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.28" vector-effect="non-scaling-stroke"/>
+      <text x="359.6" y="271.25" text-anchor="start" dominant-baseline="text-bottom" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">PLANT SECTION</text>
+      <polyline points="380.0,273.0 380.0,268.0 416.0,268.0 416.0,273.0 380.0,273.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.28" vector-effect="non-scaling-stroke"/>
+      <text x="381.2" y="271.25" text-anchor="start" dominant-baseline="text-bottom" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">Reformer furnace</text>
+      <polyline points="296.0,273.0 296.0,263.0 358.4,263.0 358.4,273.0 296.0,273.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.28" vector-effect="non-scaling-stroke"/>
+      <text x="297.2" y="269.2" text-anchor="start" dominant-baseline="text-bottom" font-family="'Calibri', Arial" font-size="4.0" fill="rgb(0,0,0)">Client (ASSUMED)</text>
+      <polyline points="358.4,268.0 358.4,263.0 380.0,263.0 380.0,268.0 358.4,268.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.28" vector-effect="non-scaling-stroke"/>
+      <text x="359.6" y="266.25" text-anchor="start" dominant-baseline="text-bottom" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">SITE</text>
+      <polyline points="380.0,268.0 380.0,263.0 416.0,263.0 416.0,268.0 380.0,268.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.28" vector-effect="non-scaling-stroke"/>
+      <text x="381.2" y="266.25" text-anchor="start" dominant-baseline="text-bottom" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">Rotterdam area (ASSUMED)</text>
+      <polyline points="296.0,263.0 296.0,258.0 314.0,258.0 314.0,263.0 296.0,263.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.28" vector-effect="non-scaling-stroke"/>
+      <text x="297.2" y="261.25" text-anchor="start" dominant-baseline="text-bottom" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">REVISION</text>
+      <polyline points="314.0,263.0 314.0,258.0 344.0,258.0 344.0,263.0 314.0,263.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.28" vector-effect="non-scaling-stroke"/>
+      <text x="315.2" y="261.25" text-anchor="start" dominant-baseline="text-bottom" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">A</text>
+      <polyline points="344.0,263.0 344.0,258.0 358.4,258.0 358.4,263.0 344.0,263.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.28" vector-effect="non-scaling-stroke"/>
+      <text x="345.2" y="261.25" text-anchor="start" dominant-baseline="text-bottom" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">2026-10-29</text>
+      <polyline points="358.4,263.0 358.4,258.0 380.0,258.0 380.0,263.0 358.4,263.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.28" vector-effect="non-scaling-stroke"/>
+      <text x="359.6" y="261.25" text-anchor="start" dominant-baseline="text-bottom" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">STATUS</text>
+      <polyline points="380.0,263.0 380.0,258.0 416.0,258.0 416.0,263.0 380.0,263.0" fill="none" stroke="rgb(0,0,0)" stroke-width="0.28" vector-effect="non-scaling-stroke"/>
+      <text x="381.2" y="261.25" text-anchor="start" dominant-baseline="text-bottom" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">for review</text>
+    </g>
+    <g id="E107" class="representation-group">
+      <g class="static">
+        <g>
+          <g id="HEAT_EXCHANGER_SHAPE" transform="translate(290.00,45.00) scale(1.20,1.20)">
+            <ellipse cx="-0.83" cy="0.0" rx="6.67" ry="6.67" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="7.5,-3.33 -4.17,-3.33" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="-4.17,-3.33 -0.83,0.0" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="-0.83,0.0 -4.17,3.33" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="-4.17,3.33 7.5,3.33" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g id="E107_F1" class="representation-group">
+        <g id="E107_F1_Node" class="representation-group"/>
+      </g>
+      <g id="E107_F2" class="representation-group">
+        <g id="E107_F2_Node" class="representation-group"/>
+      </g>
+      <g id="E107_P1" class="representation-group">
+        <g id="E107_P1_Node" class="representation-group"/>
+      </g>
+      <g id="E107_P2" class="representation-group">
+        <g id="E107_P2_Node" class="representation-group"/>
+      </g>
+      <g class="equipmenttagnamelabel">
+        <text x="312.0" y="40.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="4.5" fill="rgb(0,0,0)">E-107</text>
+      </g>
+    </g>
+    <g id="E106" class="representation-group">
+      <g class="static">
+        <g>
+          <g id="HEAT_EXCHANGER_SHAPE" transform="translate(290.00,79.00) scale(1.20,1.20)">
+            <ellipse cx="-0.83" cy="0.0" rx="6.67" ry="6.67" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="7.5,-3.33 -4.17,-3.33" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="-4.17,-3.33 -0.83,0.0" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="-0.83,0.0 -4.17,3.33" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="-4.17,3.33 7.5,3.33" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g id="E106_F1" class="representation-group">
+        <g id="E106_F1_Node" class="representation-group"/>
+      </g>
+      <g id="E106_F2" class="representation-group">
+        <g id="E106_F2_Node" class="representation-group"/>
+      </g>
+      <g id="E106_P1" class="representation-group">
+        <g id="E106_P1_Node" class="representation-group"/>
+      </g>
+      <g id="E106_P2" class="representation-group">
+        <g id="E106_P2_Node" class="representation-group"/>
+      </g>
+      <g class="equipmenttagnamelabel">
+        <text x="312.0" y="70.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="4.5" fill="rgb(0,0,0)">E-106</text>
+      </g>
+    </g>
+    <g id="E101" class="representation-group">
+      <g class="static">
+        <g>
+          <g id="HEAT_EXCHANGER_SHAPE" transform="translate(290.00,113.00) scale(1.20,1.20)">
+            <ellipse cx="-0.83" cy="0.0" rx="6.67" ry="6.67" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="7.5,-3.33 -4.17,-3.33" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="-4.17,-3.33 -0.83,0.0" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="-0.83,0.0 -4.17,3.33" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="-4.17,3.33 7.5,3.33" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g id="E101_F1" class="representation-group">
+        <g id="E101_F1_Node" class="representation-group"/>
+      </g>
+      <g id="E101_F2" class="representation-group">
+        <g id="E101_F2_Node" class="representation-group"/>
+      </g>
+      <g id="E101_P1" class="representation-group">
+        <g id="E101_P1_Node" class="representation-group"/>
+      </g>
+      <g id="E101_P2" class="representation-group">
+        <g id="E101_P2_Node" class="representation-group"/>
+      </g>
+      <g class="equipmenttagnamelabel">
+        <text x="314.0" y="107.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="4.5" fill="rgb(0,0,0)">E-101</text>
+      </g>
+    </g>
+    <g id="E104" class="representation-group">
+      <g class="static">
+        <g>
+          <g id="HEAT_EXCHANGER_SHAPE" transform="translate(290.00,147.00) scale(1.20,1.20)">
+            <ellipse cx="-0.83" cy="0.0" rx="6.67" ry="6.67" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="7.5,-3.33 -4.17,-3.33" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="-4.17,-3.33 -0.83,0.0" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="-0.83,0.0 -4.17,3.33" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="-4.17,3.33 7.5,3.33" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g id="E104_F1" class="representation-group">
+        <g id="E104_F1_Node" class="representation-group"/>
+      </g>
+      <g id="E104_F2" class="representation-group">
+        <g id="E104_F2_Node" class="representation-group"/>
+      </g>
+      <g id="E104_P1" class="representation-group">
+        <g id="E104_P1_Node" class="representation-group"/>
+      </g>
+      <g id="E104_P2" class="representation-group">
+        <g id="E104_P2_Node" class="representation-group"/>
+      </g>
+      <g class="equipmenttagnamelabel">
+        <text x="314.0" y="141.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="4.5" fill="rgb(0,0,0)">E-104</text>
+      </g>
+    </g>
+    <g id="E102" class="representation-group">
+      <g class="static">
+        <g>
+          <g id="HEAT_EXCHANGER_SHAPE" transform="translate(290.00,181.00) scale(1.20,1.20)">
+            <ellipse cx="-0.83" cy="0.0" rx="6.67" ry="6.67" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="7.5,-3.33 -4.17,-3.33" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="-4.17,-3.33 -0.83,0.0" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="-0.83,0.0 -4.17,3.33" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="-4.17,3.33 7.5,3.33" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g id="E102_F1" class="representation-group">
+        <g id="E102_F1_Node" class="representation-group"/>
+      </g>
+      <g id="E102_F2" class="representation-group">
+        <g id="E102_F2_Node" class="representation-group"/>
+      </g>
+      <g id="E102_P1" class="representation-group">
+        <g id="E102_P1_Node" class="representation-group"/>
+      </g>
+      <g id="E102_P2" class="representation-group">
+        <g id="E102_P2_Node" class="representation-group"/>
+      </g>
+      <g class="equipmenttagnamelabel">
+        <text x="314.0" y="175.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="4.5" fill="rgb(0,0,0)">E-102</text>
+      </g>
+    </g>
+    <g id="E103" class="representation-group">
+      <g class="static">
+        <g>
+          <g id="HEAT_EXCHANGER_SHAPE" transform="translate(290.00,215.00) scale(1.20,1.20)">
+            <ellipse cx="-0.83" cy="0.0" rx="6.67" ry="6.67" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="7.5,-3.33 -4.17,-3.33" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="-4.17,-3.33 -0.83,0.0" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="-0.83,0.0 -4.17,3.33" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="-4.17,3.33 7.5,3.33" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g id="E103_F1" class="representation-group">
+        <g id="E103_F1_Node" class="representation-group"/>
+      </g>
+      <g id="E103_F2" class="representation-group">
+        <g id="E103_F2_Node" class="representation-group"/>
+      </g>
+      <g id="E103_P1" class="representation-group">
+        <g id="E103_P1_Node" class="representation-group"/>
+      </g>
+      <g id="E103_P2" class="representation-group">
+        <g id="E103_P2_Node" class="representation-group"/>
+      </g>
+      <g class="equipmenttagnamelabel">
+        <text x="314.0" y="209.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="4.5" fill="rgb(0,0,0)">E-103</text>
+      </g>
+    </g>
+    <g id="H101" class="representation-group">
+      <g class="static">
+        <g>
+          <g id="FURNACE_SHAPE" transform="translate(100.00,200.00) scale(3.00,3.00)">
+            <polyline points="-10.0,5.0 3.75,5.0 -3.75,8.75 10.0,8.75" fill="none" stroke="rgb(128,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+            <polyline points="-5.0,-12.5 -5.0,-1.25 -10.0,2.5 -10.0,12.5 10.0,12.5 10.0,2.5 5.0,-1.25 5.0,-12.5 -5.0,-12.5" fill="none" stroke="rgb(128,0,0)" stroke-width="0.3" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g id="H101_B1" class="representation-group">
+        <g id="H101_B1_Node" class="representation-group"/>
+      </g>
+      <g id="H101_B2" class="representation-group">
+        <g id="H101_B2_Node" class="representation-group"/>
+      </g>
+      <g id="H101_B3" class="representation-group">
+        <g id="H101_B3_Node" class="representation-group"/>
+      </g>
+      <g id="H101_F1" class="representation-group">
+        <g id="H101_F1_Node" class="representation-group"/>
+      </g>
+      <g id="H101_N1" class="representation-group">
+        <g id="H101_N1_Node" class="representation-group"/>
+      </g>
+      <g id="H101_N2" class="representation-group">
+        <g id="H101_N2_Node" class="representation-group"/>
+      </g>
+      <g class="equipmenttagnamelabel">
+        <text x="124.0" y="172.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="4.5" fill="rgb(0,0,0)">H-101</text>
+      </g>
+    </g>
+    <g id="R101" class="representation-group">
+      <g class="static">
+        <g>
+          <g id="HEAT_EXCHANGER_SHAPE" transform="translate(100.00,200.00) scale(1.20,1.20)">
+            <ellipse cx="-0.83" cy="0.0" rx="6.67" ry="6.67" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="7.5,-3.33 -4.17,-3.33" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="-4.17,-3.33 -0.83,0.0" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="-0.83,0.0 -4.17,3.33" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="-4.17,3.33 7.5,3.33" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g id="R101_N1" class="representation-group">
+        <g id="R101_N1_Node" class="representation-group"/>
+      </g>
+      <g id="R101_N2" class="representation-group">
+        <g id="R101_N2_Node" class="representation-group"/>
+      </g>
+      <g class="equipmenttagnamelabel">
+        <text x="100.0" y="185.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="4.5" fill="rgb(0,0,0)">R-101</text>
+      </g>
+    </g>
+    <g id="K102" class="representation-group">
+      <g class="static">
+        <g>
+          <g id="FAN_SHAPE" transform="translate(150.00,50.00)">
+            <polyline points="0.0,-1.42 0.0,1.42" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="0.0,-1.42 7.5,-1.42" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="0.0,-1.42 7.5,-1.42" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="0.0,-1.42 -7.5,-1.42" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="0.0,-1.42 -7.5,-1.42" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g id="K102_N1" class="representation-group">
+        <g id="K102_N1_Node" class="representation-group"/>
+      </g>
+      <g id="K102_N2" class="representation-group">
+        <g id="K102_N2_Node" class="representation-group"/>
+      </g>
+      <g class="equipmenttagnamelabel">
+        <text x="150.0" y="42.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="4.5" fill="rgb(0,0,0)">K-102</text>
+      </g>
+    </g>
+    <g id="K103" class="representation-group">
+      <g class="static">
+        <g>
+          <g id="FAN_SHAPE" transform="translate(345.00,18.00)">
+            <polyline points="0.0,-1.42 0.0,1.42" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="0.0,-1.42 7.5,-1.42" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="0.0,-1.42 7.5,-1.42" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="0.0,-1.42 -7.5,-1.42" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+            <polyline points="0.0,-1.42 -7.5,-1.42" fill="none" stroke="rgb(128,0,0)" stroke-width="0.33" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g id="K103_N1" class="representation-group">
+        <g id="K103_N1_Node" class="representation-group"/>
+      </g>
+      <g id="K103_N2" class="representation-group">
+        <g id="K103_N2_Node" class="representation-group"/>
+      </g>
+      <g class="equipmenttagnamelabel">
+        <text x="345.0" y="27.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="4.5" fill="rgb(0,0,0)">K-103</text>
+      </g>
+    </g>
+    <g id="Line_FL1014" class="representation-group">
+      <g id="Line_FL1014_S1" class="representation-group">
+        <g id="Line_FL1014_S1_P1" class="representation-group">
+          <g class="static">
+            <polyline points="130.0,230.0 130.0,240.0 290.0,240.0 290.0,224.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="245.0" y="231.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">FL-1014</text>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="245.0" y="235.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">DN 4000</text>
+      </g>
+    </g>
+    <g id="Line_FL1015" class="representation-group">
+      <g id="Line_FL1015_S1" class="representation-group">
+        <g id="Line_FL1015_S1_P1" class="representation-group">
+          <g class="static">
+            <polyline points="290.0,206.0 290.0,190.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="300.99" y="196.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">FL-1015</text>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="300.99" y="200.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">DN 3600</text>
+      </g>
+    </g>
+    <g id="Line_FL1016" class="representation-group">
+      <g id="Line_FL1016_S1" class="representation-group">
+        <g id="Line_FL1016_S1_P1" class="representation-group">
+          <g class="static">
+            <polyline points="290.0,172.0 290.0,156.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="300.99" y="162.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">FL-1016</text>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="300.99" y="166.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">DN 3400</text>
+      </g>
+    </g>
+    <g id="Line_FL1017" class="representation-group">
+      <g id="Line_FL1017_S1" class="representation-group">
+        <g id="Line_FL1017_S1_P1" class="representation-group">
+          <g class="static">
+            <polyline points="290.0,138.0 290.0,122.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="300.99" y="128.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">FL-1017</text>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="300.99" y="132.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">DN 3000</text>
+      </g>
+    </g>
+    <g id="Line_FL1018" class="representation-group">
+      <g id="Line_FL1018_S1" class="representation-group">
+        <g id="Line_FL1018_S1_P1" class="representation-group">
+          <g class="static">
+            <polyline points="290.0,104.0 290.0,88.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="300.99" y="94.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">FL-1018</text>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="300.99" y="98.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">DN 2800</text>
+      </g>
+    </g>
+    <g id="Line_FL1019" class="representation-group">
+      <g id="Line_FL1019_S1" class="representation-group">
+        <g id="Line_FL1019_S1_P1" class="representation-group">
+          <g class="static">
+            <polyline points="290.0,70.0 290.0,54.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="300.99" y="60.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">FL-1019</text>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="300.99" y="64.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">DN 2400</text>
+      </g>
+    </g>
+    <g id="Line_FL1020" class="representation-group">
+      <g id="Line_FL1020_S1" class="representation-group">
+        <g id="Line_FL1020_S1_P1" class="representation-group">
+          <g class="static">
+            <polyline points="290.0,36.0 290.0,18.0 337.5,18.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="314.0" y="10.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">FL-1020</text>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="314.0" y="14.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">DN 2400</text>
+      </g>
+    </g>
+    <g id="Line_FL1021" class="representation-group">
+      <g id="Line_FL1021_S1" class="representation-group">
+        <g id="Line_FL1021_S1_P1" class="representation-group">
+          <g class="static">
+            <polyline points="352.5,18.0 400.0,18.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+        <g id="Line_FL1021_To" class="representation-group">
+          <g id="Line_FL1021_To_N1" class="representation-group"/>
+          <g class="static">
+            <g>
+              <g id="ARROW_FOR_OUTLET_OF_ESSENTIAL_SUBSTANCES_SHAPE" transform="translate(400.00,18.00) scale(0.70,0.70)">
+                <polyline points="0.0,2.5 0.0,-2.5 5.0,-2.5 5.0,-5.0 10.0,-0.0 5.0,5.0 5.0,2.5 0.0,2.5" fill="none" stroke="rgb(0,0,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+              </g>
+            </g>
+          </g>
+          <g class="static">
+            <text x="400.0" y="13.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">to stack</text>
+          </g>
+        </g>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="376.0" y="10.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">FL-1021</text>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="376.0" y="14.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">DN 2200</text>
+      </g>
+    </g>
+    <g id="Line_BW1024" class="representation-group">
+      <g id="Line_BW1024_S1" class="representation-group">
+        <g id="Line_BW1024_S1_P1" class="representation-group">
+          <g class="static">
+            <polyline points="15.0,30.0 272.0,30.0 272.0,39.0 281.0,39.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+        <g id="Line_BW1024_From" class="representation-group">
+          <g id="Line_BW1024_From_N1" class="representation-group"/>
+          <g class="static">
+            <g>
+              <g id="ARROW_FOR_INLET_OF_ESSENTIAL_SUBSTANCES_SHAPE" transform="translate(15.00,30.00) scale(0.70,0.70)">
+                <polyline points="-10.0,2.5 -10.0,-2.5 -5.0,-2.5 -5.0,-5.0 0.0,-0.0 -5.0,5.0 -5.0,2.5 -10.0,2.5" fill="none" stroke="rgb(0,0,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+              </g>
+            </g>
+          </g>
+          <g class="static">
+            <text x="21.96" y="25.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">from U-801, P-113</text>
+          </g>
+        </g>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="100.0" y="21.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">BW-1024</text>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="100.0" y="25.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">DN 200</text>
+      </g>
+    </g>
+    <g id="Line_BW1025" class="representation-group">
+      <g id="Line_BW1025_S1" class="representation-group">
+        <g id="Line_BW1025_S1_P1" class="representation-group">
+          <g class="static">
+            <polyline points="299.0,51.0 400.0,51.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+        <g id="Line_BW1025_To" class="representation-group">
+          <g id="Line_BW1025_To_N1" class="representation-group"/>
+          <g class="static">
+            <g>
+              <g id="ARROW_FOR_OUTLET_OF_ESSENTIAL_SUBSTANCES_SHAPE" transform="translate(400.00,51.00) scale(0.70,0.70)">
+                <polyline points="0.0,2.5 0.0,-2.5 5.0,-2.5 5.0,-5.0 10.0,-0.0 5.0,5.0 5.0,2.5 0.0,2.5" fill="none" stroke="rgb(0,0,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+              </g>
+            </g>
+          </g>
+          <g class="static">
+            <text x="400.0" y="46.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">to U-801, P-113</text>
+          </g>
+        </g>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="345.0" y="55.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">BW-1025</text>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="345.0" y="59.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">DN 200</text>
+      </g>
+    </g>
+    <g id="Line_NG1001" class="representation-group">
+      <g id="Line_NG1001_S1" class="representation-group">
+        <g id="Line_NG1001_S1_P1" class="representation-group">
+          <g class="static">
+            <polyline points="15.0,64.0 240.0,64.0 240.0,107.0 281.0,107.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+        <g id="Line_NG1001_From" class="representation-group">
+          <g id="Line_NG1001_From_N1" class="representation-group"/>
+          <g class="static">
+            <g>
+              <g id="ARROW_FOR_INLET_OF_ESSENTIAL_SUBSTANCES_SHAPE" transform="translate(15.00,64.00) scale(0.70,0.70)">
+                <polyline points="-10.0,2.5 -10.0,-2.5 -5.0,-2.5 -5.0,-5.0 0.0,-0.0 -5.0,5.0 -5.0,2.5 -10.0,2.5" fill="none" stroke="rgb(0,0,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+              </g>
+            </g>
+          </g>
+          <g class="static">
+            <text x="15.0" y="59.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">from P-101</text>
+          </g>
+        </g>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="260.0" y="98.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">NG-1001</text>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="260.0" y="102.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">DN 150</text>
+      </g>
+    </g>
+    <g id="Line_NG1003" class="representation-group">
+      <g id="Line_NG1003_S1" class="representation-group">
+        <g id="Line_NG1003_S1_P1" class="representation-group">
+          <g class="static">
+            <polyline points="299.0,119.0 400.0,119.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+        <g id="Line_NG1003_To" class="representation-group">
+          <g id="Line_NG1003_To_N1" class="representation-group"/>
+          <g class="static">
+            <g>
+              <g id="ARROW_FOR_OUTLET_OF_ESSENTIAL_SUBSTANCES_SHAPE" transform="translate(400.00,119.00) scale(0.70,0.70)">
+                <polyline points="0.0,2.5 0.0,-2.5 5.0,-2.5 5.0,-5.0 10.0,-0.0 5.0,5.0 5.0,2.5 0.0,2.5" fill="none" stroke="rgb(0,0,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+              </g>
+            </g>
+          </g>
+          <g class="static">
+            <text x="400.0" y="114.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">to V-101, P-101</text>
+          </g>
+        </g>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="345.0" y="123.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">NG-1003</text>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="345.0" y="127.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">DN 200</text>
+      </g>
+    </g>
+    <g id="Line_PA1022" class="representation-group">
+      <g id="Line_PA1022_S1" class="representation-group">
+        <g id="Line_PA1022_S1_P1" class="representation-group">
+          <g class="static">
+            <polyline points="15.0,76.0 228.0,76.0 228.0,141.0 281.0,141.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+        <g id="Line_PA1022_From" class="representation-group">
+          <g id="Line_PA1022_From_N1" class="representation-group"/>
+          <g class="static">
+            <g>
+              <g id="ARROW_FOR_INLET_OF_ESSENTIAL_SUBSTANCES_SHAPE" transform="translate(15.00,76.00) scale(0.70,0.70)">
+                <polyline points="-10.0,2.5 -10.0,-2.5 -5.0,-2.5 -5.0,-5.0 0.0,-0.0 -5.0,5.0 -5.0,2.5 -10.0,2.5" fill="none" stroke="rgb(0,0,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+              </g>
+            </g>
+          </g>
+          <g class="static">
+            <text x="18.25" y="71.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">from K-101, P-103</text>
+          </g>
+        </g>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="255.0" y="132.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">PA-1022</text>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="255.0" y="136.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">DN 250</text>
+      </g>
+    </g>
+    <g id="Line_PA1023" class="representation-group">
+      <g id="Line_PA1023_S1" class="representation-group">
+        <g id="Line_PA1023_S1_P1" class="representation-group">
+          <g class="static">
+            <polyline points="299.0,153.0 400.0,153.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+        <g id="Line_PA1023_To" class="representation-group">
+          <g id="Line_PA1023_To_N1" class="representation-group"/>
+          <g class="static">
+            <g>
+              <g id="ARROW_FOR_OUTLET_OF_ESSENTIAL_SUBSTANCES_SHAPE" transform="translate(400.00,153.00) scale(0.70,0.70)">
+                <polyline points="0.0,2.5 0.0,-2.5 5.0,-2.5 5.0,-5.0 10.0,-0.0 5.0,5.0 5.0,2.5 0.0,2.5" fill="none" stroke="rgb(0,0,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+              </g>
+            </g>
+          </g>
+          <g class="static">
+            <text x="400.0" y="148.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">to R-102, P-103</text>
+          </g>
+        </g>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="345.0" y="157.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">PA-1023</text>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="345.0" y="161.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">DN 300</text>
+      </g>
+    </g>
+    <g id="Line_NG1004_P102" class="representation-group">
+      <g id="Line_NG1004_P102_S1" class="representation-group">
+        <g id="Line_NG1004_P102_S1_P1" class="representation-group">
+          <g class="static">
+            <polyline points="15.0,96.0 216.0,96.0 216.0,175.0 281.0,175.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+        <g id="Line_NG1004_P102_From" class="representation-group">
+          <g id="Line_NG1004_P102_From_N1" class="representation-group"/>
+          <g class="static">
+            <g>
+              <g id="ARROW_FOR_INLET_OF_ESSENTIAL_SUBSTANCES_SHAPE" transform="translate(15.00,96.00) scale(0.70,0.70)">
+                <polyline points="-10.0,2.5 -10.0,-2.5 -5.0,-2.5 -5.0,-5.0 0.0,-0.0 -5.0,5.0 -5.0,2.5 -10.0,2.5" fill="none" stroke="rgb(0,0,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+              </g>
+            </g>
+          </g>
+          <g class="static">
+            <text x="15.0" y="91.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">from P-101</text>
+          </g>
+        </g>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="250.0" y="166.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">NG-1004</text>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="250.0" y="170.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">DN 400</text>
+      </g>
+    </g>
+    <g id="Line_PG1006" class="representation-group">
+      <g id="Line_PG1006_S1" class="representation-group">
+        <g id="Line_PG1006_S1_P1" class="representation-group">
+          <g class="static">
+            <polyline points="299.0,187.0 400.0,187.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+        <g id="Line_PG1006_To" class="representation-group">
+          <g id="Line_PG1006_To_N1" class="representation-group"/>
+          <g class="static">
+            <g>
+              <g id="ARROW_FOR_OUTLET_OF_ESSENTIAL_SUBSTANCES_SHAPE" transform="translate(400.00,187.00) scale(0.70,0.70)">
+                <polyline points="0.0,2.5 0.0,-2.5 5.0,-2.5 5.0,-5.0 10.0,-0.0 5.0,5.0 5.0,2.5 0.0,2.5" fill="none" stroke="rgb(0,0,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+              </g>
+            </g>
+          </g>
+          <g class="static">
+            <text x="400.0" y="182.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">to R-100, P-101</text>
+          </g>
+        </g>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="345.0" y="191.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">PG-1006</text>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="345.0" y="195.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">DN 450</text>
+      </g>
+    </g>
+    <g id="Line_PG1007" class="representation-group">
+      <g id="Line_PG1007_S1" class="representation-group">
+        <g id="Line_PG1007_S1_P1" class="representation-group">
+          <g class="static">
+            <polyline points="15.0,108.0 204.0,108.0 204.0,209.0 281.0,209.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+        <g id="Line_PG1007_From" class="representation-group">
+          <g id="Line_PG1007_From_N1" class="representation-group"/>
+          <g class="static">
+            <g>
+              <g id="ARROW_FOR_INLET_OF_ESSENTIAL_SUBSTANCES_SHAPE" transform="translate(15.00,108.00) scale(0.70,0.70)">
+                <polyline points="-10.0,2.5 -10.0,-2.5 -5.0,-2.5 -5.0,-5.0 0.0,-0.0 -5.0,5.0 -5.0,2.5 -10.0,2.5" fill="none" stroke="rgb(0,0,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+              </g>
+            </g>
+          </g>
+          <g class="static">
+            <text x="18.25" y="103.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">from R-100, P-101</text>
+          </g>
+        </g>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="245.0" y="200.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">PG-1007</text>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="245.0" y="204.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">DN 450</text>
+      </g>
+    </g>
+    <g id="Line_PG1008" class="representation-group">
+      <g id="Line_PG1008_S1" class="representation-group">
+        <g id="Line_PG1008_S1_P1" class="representation-group">
+          <g class="static">
+            <polyline points="281.0,221.0 150.0,221.0 150.0,194.0 109.0,194.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="185.0" y="226.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">PG-1008</text>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="185.0" y="230.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">DN 500</text>
+      </g>
+    </g>
+    <g id="Line_PG1009" class="representation-group">
+      <g id="Line_PG1009_S1" class="representation-group">
+        <g id="Line_PG1009_S1_P1" class="representation-group">
+          <g class="static">
+            <polyline points="91.0,206.0 45.0,206.0 45.0,250.0 400.0,250.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+        <g id="Line_PG1009_To" class="representation-group">
+          <g id="Line_PG1009_To_N1" class="representation-group"/>
+          <g class="static">
+            <g>
+              <g id="ARROW_FOR_OUTLET_OF_ESSENTIAL_SUBSTANCES_SHAPE" transform="translate(400.00,250.00) scale(0.70,0.70)">
+                <polyline points="0.0,2.5 0.0,-2.5 5.0,-2.5 5.0,-5.0 10.0,-0.0 5.0,5.0 5.0,2.5 0.0,2.5" fill="none" stroke="rgb(0,0,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+              </g>
+            </g>
+          </g>
+          <g class="static">
+            <text x="400.0" y="245.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">to R-102, P-103</text>
+          </g>
+        </g>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="350.0" y="241.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">PG-1009</text>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="350.0" y="245.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">DN 700</text>
+      </g>
+    </g>
+    <g id="Line_CA1011" class="representation-group">
+      <g id="Line_CA1011_S1" class="representation-group">
+        <g id="Line_CA1011_S1_P1" class="representation-group">
+          <g class="static">
+            <polyline points="15.0,50.0 142.5,50.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+        <g id="Line_CA1011_From" class="representation-group">
+          <g id="Line_CA1011_From_N1" class="representation-group"/>
+          <g class="static">
+            <g>
+              <g id="ARROW_FOR_INLET_OF_ESSENTIAL_SUBSTANCES_SHAPE" transform="translate(15.00,50.00) scale(0.70,0.70)">
+                <polyline points="-10.0,2.5 -10.0,-2.5 -5.0,-2.5 -5.0,-5.0 0.0,-0.0 -5.0,5.0 -5.0,2.5 -10.0,2.5" fill="none" stroke="rgb(0,0,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+              </g>
+            </g>
+          </g>
+          <g class="static">
+            <text x="15.0" y="45.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">from atmosphere</text>
+          </g>
+        </g>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="78.75" y="42.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">CA-1011</text>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="78.75" y="46.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">DN 1800</text>
+      </g>
+    </g>
+    <g id="Line_CA1012" class="representation-group">
+      <g id="Line_CA1012_S1" class="representation-group">
+        <g id="Line_CA1012_S1_P1" class="representation-group">
+          <g class="static">
+            <polyline points="157.5,50.0 275.0,50.0 275.0,73.0 281.0,73.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="178.75" y="42.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">CA-1012</text>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="178.75" y="46.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">DN 1800</text>
+      </g>
+    </g>
+    <g id="Line_CA1013" class="representation-group">
+      <g id="Line_CA1013_S1" class="representation-group">
+        <g id="Line_CA1013_S1_P1" class="representation-group">
+          <g class="static">
+            <polyline points="281.0,85.0 264.0,85.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+        <g id="Line_CA1013_S1_P2" class="representation-group">
+          <g class="static">
+            <polyline points="260.0,85.0 112.0,85.0 112.0,162.5" fill="none" stroke="rgb(128,128,0)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+        <g id="FV1108" class="representation-group">
+          <g id="FV1108_N1" class="representation-group"/>
+          <g id="FV1108_N2" class="representation-group"/>
+          <g class="static">
+            <g>
+              <g id="BUTTERFLY_VALVE_SHAPE" transform="translate(262.00,85.00) rotate(180.00) scale(0.40,0.40)">
+                <polyline points="-5.0,-2.5 5.0,2.5 -5.0,2.5 -5.0,-2.5 5.0,-2.5 5.0,2.5" fill="none" stroke="rgb(128,128,0)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+                <ellipse cx="0.0" cy="-0.0" rx="1.25" ry="1.25" fill="rgb(128,128,0)" stroke="rgb(128,128,0)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="125.0" y="140.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">CA-1013</text>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="125.0" y="144.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">DN 2400</text>
+      </g>
+    </g>
+    <g id="Line_FG1002" class="representation-group">
+      <g id="Line_FG1002_S1" class="representation-group">
+        <g id="Line_FG1002_S1_P1" class="representation-group">
+          <g class="static">
+            <polyline points="15.0,120.0 33.0,120.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+        <g id="Line_FG1002_S1_P2" class="representation-group">
+          <g class="static">
+            <polyline points="37.0,120.0 58.0,120.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+        <g id="Line_FG1002_S1_P3" class="representation-group">
+          <g class="static">
+            <polyline points="62.0,120.0 100.0,120.0 100.0,162.5" fill="none" stroke="rgb(128,128,0)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+        <g id="Line_FG1002_From" class="representation-group">
+          <g id="Line_FG1002_From_N1" class="representation-group"/>
+          <g class="static">
+            <g>
+              <g id="ARROW_FOR_INLET_OF_ESSENTIAL_SUBSTANCES_SHAPE" transform="translate(15.00,120.00) scale(0.70,0.70)">
+                <polyline points="-10.0,2.5 -10.0,-2.5 -5.0,-2.5 -5.0,-5.0 0.0,-0.0 -5.0,5.0 -5.0,2.5 -10.0,2.5" fill="none" stroke="rgb(0,0,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+              </g>
+            </g>
+          </g>
+          <g class="static">
+            <text x="15.0" y="115.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">from P-101</text>
+          </g>
+        </g>
+        <g id="XV1102" class="representation-group">
+          <g id="XV1102_N1" class="representation-group"/>
+          <g id="XV1102_N2" class="representation-group"/>
+          <g class="static">
+            <g>
+              <g id="BALL_VALVE_SHAPE" transform="translate(35.00,120.00) scale(0.40,0.40)">
+                <polyline points="-5.0,-2.5 5.0,2.5 5.0,-2.5 -5.0,2.5 -5.0,-2.5" fill="none" stroke="rgb(128,128,0)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+                <ellipse cx="0.0" cy="-0.0" rx="2.5" ry="2.5" fill="rgb(255,255,255)" stroke="rgb(255,255,255)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+                <ellipse cx="0.0" cy="-0.0" rx="2.5" ry="2.5" fill="none" stroke="rgb(128,128,0)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="PV1101" class="representation-group">
+          <g id="PV1101_N1" class="representation-group"/>
+          <g id="PV1101_N2" class="representation-group"/>
+          <g class="static">
+            <g>
+              <g id="GLOBE_VALVE_SHAPE" transform="translate(60.00,120.00) scale(0.40,0.40)">
+                <polyline points="-5.0,-2.5 5.0,2.5 5.0,-2.5 -5.0,2.5 -5.0,-2.5" fill="none" stroke="rgb(128,128,0)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+                <ellipse cx="0.0" cy="-0.0" rx="1.25" ry="1.25" fill="rgb(128,128,0)" stroke="rgb(128,128,0)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="88.0" y="124.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">FG-1002</text>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="88.0" y="128.5" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">DN 80</text>
+      </g>
+    </g>
+    <g id="Line_FG1010" class="representation-group">
+      <g id="Line_FG1010_S1" class="representation-group">
+        <g id="Line_FG1010_S1_P1" class="representation-group">
+          <g class="static">
+            <polyline points="15.0,145.0 33.0,145.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+        <g id="Line_FG1010_S1_P2" class="representation-group">
+          <g class="static">
+            <polyline points="37.0,145.0 88.0,145.0 88.0,162.5" fill="none" stroke="rgb(128,128,0)" stroke-width="0.5" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+        <g id="Line_FG1010_From" class="representation-group">
+          <g id="Line_FG1010_From_N1" class="representation-group"/>
+          <g class="static">
+            <g>
+              <g id="ARROW_FOR_INLET_OF_ESSENTIAL_SUBSTANCES_SHAPE" transform="translate(15.00,145.00) scale(0.70,0.70)">
+                <polyline points="-10.0,2.5 -10.0,-2.5 -5.0,-2.5 -5.0,-5.0 0.0,-0.0 -5.0,5.0 -5.0,2.5 -10.0,2.5" fill="none" stroke="rgb(0,0,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+              </g>
+            </g>
+          </g>
+          <g class="static">
+            <text x="16.3225" y="140.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">from X-601, P-112</text>
+          </g>
+        </g>
+        <g id="XV1105" class="representation-group">
+          <g id="XV1105_N1" class="representation-group"/>
+          <g id="XV1105_N2" class="representation-group"/>
+          <g class="static">
+            <g>
+              <g id="BALL_VALVE_SHAPE" transform="translate(35.00,145.00) scale(0.40,0.40)">
+                <polyline points="-5.0,-2.5 5.0,2.5 5.0,-2.5 -5.0,2.5 -5.0,-2.5" fill="none" stroke="rgb(128,128,0)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+                <ellipse cx="0.0" cy="-0.0" rx="2.5" ry="2.5" fill="rgb(255,255,255)" stroke="rgb(255,255,255)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+                <ellipse cx="0.0" cy="-0.0" rx="2.5" ry="2.5" fill="none" stroke="rgb(128,128,0)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="72.0" y="137.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">FG-1010</text>
+      </g>
+      <g class="pipingnetworksystemlabel">
+        <text x="72.0" y="141.0" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="3.0" fill="rgb(0,0,0)">DN 125</text>
+      </g>
+    </g>
+    <g id="Inst_PIC1101" class="representation-group">
+      <g class="static">
+        <g>
+          <g id="INSTRUMENTATION_BUBBLE_SHAPE_CENTRAL" transform="translate(60.00,132.00)">
+            <polyline points="-3.0,-3.75 3.0,-3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <path d="M -3.00,3.75 A 3.75,3.75 0.00 0,1 -3.00,-3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <polyline points="-3.0,3.75 3.0,3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <path d="M 3.00,-3.75 A 3.75,3.75 0.00 0,1 3.00,3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <polyline points="-6.75,-0.0 6.75,-0.0" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g id="Inst_PIC1101_MeasuringLine" class="representation-group">
+        <g class="static">
+          <polyline points="75.0,120.0 75.0,132.0 66.75,132.0" fill="none" stroke="rgb(0,128,0)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+        </g>
+      </g>
+      <g id="Inst_PIC1101_Signal" class="representation-group">
+        <g class="static">
+          <polyline points="60.0,128.25 60.0,127.2" fill="none" stroke="rgb(0,0,0)" stroke-width="0.25" vector-effect="non-scaling-stroke" stroke-dasharray="2.5,0.5"/>
+        </g>
+      </g>
+      <g class="processinstrumentationfunctionlabel">
+        <text x="60.0" y="130.6" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">PIC</text>
+        <text x="60.0" y="133.6" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">1101</text>
+      </g>
+    </g>
+    <g id="Inst_PIC1101_Actuator" class="representation-group">
+      <g class="static">
+        <g>
+          <g id="CONTROLLED_ACTUATOR_SHAPE" transform="translate(60.00,120.00) rotate(90.00) scale(0.40,0.40)">
+            <ellipse cx="13.5" cy="-0.0" rx="4.5" ry="4.5" fill="none" stroke="rgb(128,128,0)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+            <polyline points="9.0,-0.0 0.0,-0.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Inst_US1102" class="representation-group">
+      <g class="static">
+        <g>
+          <g id="INSTRUMENTATION_BUBBLE_SHAPE_CENTRAL" transform="translate(35.00,132.00)">
+            <polyline points="-3.0,-3.75 3.0,-3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <path d="M -3.00,3.75 A 3.75,3.75 0.00 0,1 -3.00,-3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <polyline points="-3.0,3.75 3.0,3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <path d="M 3.00,-3.75 A 3.75,3.75 0.00 0,1 3.00,3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <polyline points="-6.75,-0.0 6.75,-0.0" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g id="Inst_US1102_Signal" class="representation-group">
+        <g class="static">
+          <polyline points="35.0,128.25 35.0,127.2" fill="none" stroke="rgb(0,0,0)" stroke-width="0.25" vector-effect="non-scaling-stroke" stroke-dasharray="2.5,0.5"/>
+        </g>
+      </g>
+      <g class="processinstrumentationfunctionlabel">
+        <text x="35.0" y="130.6" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">US</text>
+        <text x="35.0" y="133.6" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">1102</text>
+      </g>
+    </g>
+    <g id="Inst_US1102_Actuator" class="representation-group">
+      <g class="static">
+        <g>
+          <g id="CONTROLLED_ACTUATOR_SHAPE" transform="translate(35.00,120.00) rotate(90.00) scale(0.40,0.40)">
+            <ellipse cx="13.5" cy="-0.0" rx="4.5" ry="4.5" fill="none" stroke="rgb(128,128,0)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+            <polyline points="9.0,-0.0 0.0,-0.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Inst_TIC1103" class="representation-group">
+      <g class="static">
+        <g>
+          <g id="INSTRUMENTATION_BUBBLE_SHAPE_CENTRAL" transform="translate(40.00,190.00)">
+            <polyline points="-3.0,-3.75 3.0,-3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <path d="M -3.00,3.75 A 3.75,3.75 0.00 0,1 -3.00,-3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <polyline points="-3.0,3.75 3.0,3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <path d="M 3.00,-3.75 A 3.75,3.75 0.00 0,1 3.00,3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <polyline points="-6.75,-0.0 6.75,-0.0" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g id="Inst_TIC1103_MeasuringLine" class="representation-group">
+        <g class="static">
+          <polyline points="55.0,206.0 55.0,190.0 46.75,190.0" fill="none" stroke="rgb(0,128,0)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+        </g>
+      </g>
+      <g class="processinstrumentationfunctionlabel">
+        <text x="40.0" y="188.6" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">TIC</text>
+        <text x="40.0" y="191.6" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">1103</text>
+      </g>
+    </g>
+    <g id="Inst_FI1104" class="representation-group">
+      <g class="static">
+        <g>
+          <g id="INSTRUMENTATION_BUBBLE_SHAPE_CENTRAL" transform="translate(60.00,160.00)">
+            <polyline points="-3.0,-3.75 3.0,-3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <path d="M -3.00,3.75 A 3.75,3.75 0.00 0,1 -3.00,-3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <polyline points="-3.0,3.75 3.0,3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <path d="M 3.00,-3.75 A 3.75,3.75 0.00 0,1 3.00,3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <polyline points="-6.75,-0.0 6.75,-0.0" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g id="Inst_FI1104_MeasuringLine" class="representation-group">
+        <g class="static">
+          <polyline points="60.0,145.0 60.0,156.25" fill="none" stroke="rgb(0,128,0)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+        </g>
+      </g>
+      <g class="processinstrumentationfunctionlabel">
+        <text x="60.0" y="158.6" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">FI</text>
+        <text x="60.0" y="161.6" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">1104</text>
+      </g>
+    </g>
+    <g id="Inst_US1105" class="representation-group">
+      <g class="static">
+        <g>
+          <g id="INSTRUMENTATION_BUBBLE_SHAPE_CENTRAL" transform="translate(35.00,160.00)">
+            <polyline points="-3.0,-3.75 3.0,-3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <path d="M -3.00,3.75 A 3.75,3.75 0.00 0,1 -3.00,-3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <polyline points="-3.0,3.75 3.0,3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <path d="M 3.00,-3.75 A 3.75,3.75 0.00 0,1 3.00,3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <polyline points="-6.75,-0.0 6.75,-0.0" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g id="Inst_US1105_Signal" class="representation-group">
+        <g class="static">
+          <polyline points="35.0,156.25 35.0,152.2" fill="none" stroke="rgb(0,0,0)" stroke-width="0.25" vector-effect="non-scaling-stroke" stroke-dasharray="2.5,0.5"/>
+        </g>
+      </g>
+      <g class="processinstrumentationfunctionlabel">
+        <text x="35.0" y="158.6" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">US</text>
+        <text x="35.0" y="161.6" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">1105</text>
+      </g>
+    </g>
+    <g id="Inst_US1105_Actuator" class="representation-group">
+      <g class="static">
+        <g>
+          <g id="CONTROLLED_ACTUATOR_SHAPE" transform="translate(35.00,145.00) rotate(90.00) scale(0.40,0.40)">
+            <ellipse cx="13.5" cy="-0.0" rx="4.5" ry="4.5" fill="none" stroke="rgb(128,128,0)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+            <polyline points="9.0,-0.0 0.0,-0.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Inst_TI1106" class="representation-group">
+      <g class="static">
+        <g>
+          <g id="INSTRUMENTATION_BUBBLE_SHAPE_CENTRAL" transform="translate(170.00,207.00)">
+            <polyline points="-3.0,-3.75 3.0,-3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <path d="M -3.00,3.75 A 3.75,3.75 0.00 0,1 -3.00,-3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <polyline points="-3.0,3.75 3.0,3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <path d="M 3.00,-3.75 A 3.75,3.75 0.00 0,1 3.00,3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <polyline points="-6.75,-0.0 6.75,-0.0" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g id="Inst_TI1106_MeasuringLine" class="representation-group">
+        <g class="static">
+          <polyline points="150.0,207.0 163.25,207.0" fill="none" stroke="rgb(0,128,0)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+        </g>
+      </g>
+      <g class="processinstrumentationfunctionlabel">
+        <text x="170.0" y="205.6" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">TI</text>
+        <text x="170.0" y="208.6" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">1106</text>
+      </g>
+    </g>
+    <g id="Inst_PIC1107" class="representation-group">
+      <g class="static">
+        <g>
+          <g id="INSTRUMENTATION_BUBBLE_SHAPE_CENTRAL" transform="translate(57.00,220.00)">
+            <polyline points="-3.0,-3.75 3.0,-3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <path d="M -3.00,3.75 A 3.75,3.75 0.00 0,1 -3.00,-3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <polyline points="-3.0,3.75 3.0,3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <path d="M 3.00,-3.75 A 3.75,3.75 0.00 0,1 3.00,3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <polyline points="-6.75,-0.0 6.75,-0.0" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g id="Inst_PIC1107_MeasuringLine" class="representation-group">
+        <g class="static">
+          <polyline points="70.0,220.0 63.75,220.0" fill="none" stroke="rgb(0,128,0)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+        </g>
+      </g>
+      <g class="processinstrumentationfunctionlabel">
+        <text x="57.0" y="218.6" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">PIC</text>
+        <text x="57.0" y="221.6" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">1107</text>
+      </g>
+    </g>
+    <g id="Inst_PZ1108" class="representation-group">
+      <g class="static">
+        <g>
+          <g id="INSTRUMENTATION_BUBBLE_SHAPE_CENTRAL" transform="translate(57.00,230.00)">
+            <polyline points="-3.0,-3.75 3.0,-3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <path d="M -3.00,3.75 A 3.75,3.75 0.00 0,1 -3.00,-3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <polyline points="-3.0,3.75 3.0,3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <path d="M 3.00,-3.75 A 3.75,3.75 0.00 0,1 3.00,3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <polyline points="-6.75,-0.0 6.75,-0.0" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g id="Inst_PZ1108_MeasuringLine" class="representation-group">
+        <g class="static">
+          <polyline points="70.0,230.0 63.75,230.0" fill="none" stroke="rgb(0,128,0)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+        </g>
+      </g>
+      <g class="processinstrumentationfunctionlabel">
+        <text x="57.0" y="228.6" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">PZ</text>
+        <text x="57.0" y="231.6" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">1108</text>
+      </g>
+    </g>
+    <g id="Inst_AIC1109" class="representation-group">
+      <g class="static">
+        <g>
+          <g id="INSTRUMENTATION_BUBBLE_SHAPE_CENTRAL" transform="translate(322.00,29.00)">
+            <polyline points="-3.0,-3.75 3.0,-3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <path d="M -3.00,3.75 A 3.75,3.75 0.00 0,1 -3.00,-3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <polyline points="-3.0,3.75 3.0,3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <path d="M 3.00,-3.75 A 3.75,3.75 0.00 0,1 3.00,3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <polyline points="-6.75,-0.0 6.75,-0.0" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g id="Inst_AIC1109_MeasuringLine" class="representation-group">
+        <g class="static">
+          <polyline points="305.0,18.0 305.0,29.0 315.25,29.0" fill="none" stroke="rgb(0,128,0)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+        </g>
+      </g>
+      <g class="processinstrumentationfunctionlabel">
+        <text x="322.0" y="27.6" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">AIC</text>
+        <text x="322.0" y="30.6" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">1109</text>
+      </g>
+    </g>
+    <g id="Inst_FIC1110" class="representation-group">
+      <g class="static">
+        <g>
+          <g id="INSTRUMENTATION_BUBBLE_SHAPE_CENTRAL" transform="translate(262.00,70.00)">
+            <polyline points="-3.0,-3.75 3.0,-3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <path d="M -3.00,3.75 A 3.75,3.75 0.00 0,1 -3.00,-3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <polyline points="-3.0,3.75 3.0,3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <path d="M 3.00,-3.75 A 3.75,3.75 0.00 0,1 3.00,3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <polyline points="-6.75,-0.0 6.75,-0.0" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g id="Inst_FIC1110_MeasuringLine" class="representation-group">
+        <g class="static">
+          <polyline points="272.0,85.0 272.0,70.0 268.75,70.0" fill="none" stroke="rgb(0,128,0)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+        </g>
+      </g>
+      <g id="Inst_FIC1110_Signal" class="representation-group">
+        <g class="static">
+          <polyline points="262.0,73.75 262.0,77.8" fill="none" stroke="rgb(0,0,0)" stroke-width="0.25" vector-effect="non-scaling-stroke" stroke-dasharray="2.5,0.5"/>
+        </g>
+      </g>
+      <g class="processinstrumentationfunctionlabel">
+        <text x="262.0" y="68.6" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">FIC</text>
+        <text x="262.0" y="71.6" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">1110</text>
+      </g>
+    </g>
+    <g id="Inst_FIC1110_Actuator" class="representation-group">
+      <g class="static">
+        <g>
+          <g id="CONTROLLED_ACTUATOR_SHAPE" transform="translate(262.00,85.00) rotate(270.00) scale(0.40,0.40)">
+            <ellipse cx="13.5" cy="-0.0" rx="4.5" ry="4.5" fill="none" stroke="rgb(128,128,0)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+            <polyline points="9.0,-0.0 0.0,-0.0" fill="none" stroke="rgb(128,128,0)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Inst_TI1111" class="representation-group">
+      <g class="static">
+        <g>
+          <g id="INSTRUMENTATION_BUBBLE_SHAPE_CENTRAL" transform="translate(205.00,231.00)">
+            <polyline points="-3.0,-3.75 3.0,-3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <path d="M -3.00,3.75 A 3.75,3.75 0.00 0,1 -3.00,-3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <polyline points="-3.0,3.75 3.0,3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <path d="M 3.00,-3.75 A 3.75,3.75 0.00 0,1 3.00,3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <polyline points="-6.75,-0.0 6.75,-0.0" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g id="Inst_TI1111_MeasuringLine" class="representation-group">
+        <g class="static">
+          <polyline points="205.0,240.0 205.0,234.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+        </g>
+      </g>
+      <g class="processinstrumentationfunctionlabel">
+        <text x="205.0" y="229.6" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">TI</text>
+        <text x="205.0" y="232.6" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">1111</text>
+      </g>
+    </g>
+    <g id="Inst_TI1112" class="representation-group">
+      <g class="static">
+        <g>
+          <g id="INSTRUMENTATION_BUBBLE_SHAPE_CENTRAL" transform="translate(370.00,29.00)">
+            <polyline points="-3.0,-3.75 3.0,-3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <path d="M -3.00,3.75 A 3.75,3.75 0.00 0,1 -3.00,-3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <polyline points="-3.0,3.75 3.0,3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <path d="M 3.00,-3.75 A 3.75,3.75 0.00 0,1 3.00,3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <polyline points="-6.75,-0.0 6.75,-0.0" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g id="Inst_TI1112_MeasuringLine" class="representation-group">
+        <g class="static">
+          <polyline points="370.0,18.0 370.0,25.25" fill="none" stroke="rgb(0,128,0)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+        </g>
+      </g>
+      <g class="processinstrumentationfunctionlabel">
+        <text x="370.0" y="27.6" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">TI</text>
+        <text x="370.0" y="30.6" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">1112</text>
+      </g>
+    </g>
+    <g id="Inst_TI1113" class="representation-group">
+      <g class="static">
+        <g>
+          <g id="INSTRUMENTATION_BUBBLE_SHAPE_CENTRAL" transform="translate(360.00,164.00)">
+            <polyline points="-3.0,-3.75 3.0,-3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <path d="M -3.00,3.75 A 3.75,3.75 0.00 0,1 -3.00,-3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <polyline points="-3.0,3.75 3.0,3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <path d="M 3.00,-3.75 A 3.75,3.75 0.00 0,1 3.00,3.75" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+            <polyline points="-6.75,-0.0 6.75,-0.0" fill="none" stroke="rgb(0,128,0)" stroke-width="0.2" vector-effect="non-scaling-stroke"/>
+          </g>
+        </g>
+      </g>
+      <g id="Inst_TI1113_MeasuringLine" class="representation-group">
+        <g class="static">
+          <polyline points="360.0,153.0 360.0,160.25" fill="none" stroke="rgb(0,128,0)" stroke-width="0.25" vector-effect="non-scaling-stroke"/>
+        </g>
+      </g>
+      <g class="processinstrumentationfunctionlabel">
+        <text x="360.0" y="162.6" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">TI</text>
+        <text x="360.0" y="165.6" text-anchor="middle" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">1113</text>
+      </g>
+    </g>
+    <g class="static" id="Note1">
+      <text x="20.0" y="266.0" text-anchor="start" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">XV-1102, XV-1105: see C&amp;E I-102</text>
+    </g>
+    <g class="static" id="Note2">
+      <text x="20.0" y="272.0" text-anchor="start" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">TIC-1103 resets PIC-1101 (reformer outlet temperature)</text>
+    </g>
+    <g class="static" id="Note3">
+      <text x="130.0" y="266.0" text-anchor="start" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">AIC-1109 resets FIC-1110 (excess air)</text>
+    </g>
+    <g class="static" id="Note4">
+      <text x="130.0" y="272.0" text-anchor="start" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">PIC-1107 (draft) acts on the K-103 speed</text>
+    </g>
+    <g class="static" id="Note5">
+      <text x="20.0" y="278.0" text-anchor="start" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">R-101: catalyst tubes in the radiant box of H-101</text>
+    </g>
+    <g class="static" id="Note6">
+      <text x="130.0" y="278.0" text-anchor="start" dominant-baseline="middle" font-family="'Calibri', Arial" font-size="2.5" fill="rgb(0,0,0)">Air and flue gas ducts: DN = equivalent diameter, ASSUMED</text>
+    </g>
+  </g>
+</svg>

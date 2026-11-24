@@ -1,0 +1,84 @@
+name: BED pipeline
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  bed:
+    runs-on: windows-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install cheme, pyDEXPI, Brightway
+        shell: pwsh
+        run: |
+          python -m pip install --upgrade pip
+          pip install "cheme-as-code[serve] @ git+https://github.com/ChemE-as-Code/core.git"
+          pip install pyyaml bw2data bw2calc
+
+      - name: Install PSI (isolated, numpy 1.x)
+        shell: pwsh
+        run: |
+          python -m venv .venv-psi
+          .\.venv-psi\Scripts\python.exe -m pip install "numpy<2" pint jinja2 tqdm
+          .\.venv-psi\Scripts\python.exe -m pip install "https://github.com/denisgomes/psi/archive/refs/heads/master.zip"
+
+      - name: cheme validate
+        shell: pwsh
+        run: cheme validate
+
+      - name: DEXPI validation (pyDEXPI)
+        shell: pwsh
+        run: python tools/dexpi_check.py
+
+      - name: LCA (Brightway 2.5)
+        shell: pwsh
+        run: python tools/brightway_lca.py
+
+      - name: PSI batch stress screening
+        shell: pwsh
+        env:
+          PSI_EXE: ${{ github.workspace }}\.venv-psi\Scripts\psi.exe
+        run: python tools/psi_batch.py
+
+      - name: HAZOP worksheet export
+        shell: pwsh
+        run: |
+          python tools/hazop_export.py
+          cheme safety hazop report H-01
+          Copy-Item build\hazop\H-01.md bed\hazop\H-01-full-report.md -Force
+          Copy-Item build\hazop\H-01.html bed\hazop\H-01-full-report.html -Force
+
+      - name: Install FreeCAD
+        shell: pwsh
+        run: choco install freecad --no-progress -y
+
+      - name: FreeCAD 3D model and STEP export
+        shell: pwsh
+        run: |
+          $fc = Get-ChildItem "C:\Program Files\FreeCAD*\bin\freecadcmd.exe" | Select-Object -First 1 -ExpandProperty FullName
+          $env:BED_ROOT = "${{ github.workspace }}"
+          python tools/model_to_json.py
+          & $fc "${{ github.workspace }}\tools\freecad_build.py"
+          if (-not (Test-Path bed\cad\ammonia-bed.step)) { throw "STEP export failed" }
+
+      - name: Assemble manifest
+        shell: pwsh
+        run: |
+          cheme process streams --csv | Out-File -Encoding utf8 bed\dwsim\stream-table.csv
+          Copy-Item process\simulation.yaml bed\dwsim\simulation-spec.yaml -Force
+          Copy-Item process\simulation-run.json bed\dwsim\simulation-run-archived.json -Force
+          Copy-Item lca\results.md bed\lca\cheme-lca-results.md -Force
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ammonia-bed-package
+          path: bed/

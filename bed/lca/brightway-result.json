@@ -1,0 +1,17 @@
+{
+  "functional_unit": "1 kg NH3 (liquid, battery limit)",
+  "method": "IPCC 2021 GWP100 (CO2=1, CH4=29.8)",
+  "total_kg_co2e": 1.8925287157959276,
+  "direct_kg_co2e": 1.5582042408903287,
+  "natural_gas_supply_kg_co2e": 0.2258103318311622,
+  "electricity_kg_co2e": 0.10851414307443678,
+  "gaps": [
+    "demineralised water supply/treatment (no open factor in this run)"
+  ],
+  "inputs": {
+    "ng_kg": 0.5705868888042284,
+    "power_kwh": 0.5885991705057322,
+    "dmw_kg": 1.7583981892629954
+  },
+  "status": "BED screening only, not a verified LCA"
+}

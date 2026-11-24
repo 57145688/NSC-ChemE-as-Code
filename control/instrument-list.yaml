@@ -1,0 +1,141 @@
+# Instrument list. Schema: `cheme schema instruments`.
+# Front end (S3a, sheets P-101 to P-104, D-027): tags as printed. Loops, setpoints, alarms and
+# fail positions belong in control/loops.yaml; trips in control/cause-effect.yaml (S4).
+schema: cheme/instruments/v1
+instruments:
+  # ---- P-101 feed gas, desulphurisation, prereforming
+  - {tag: PI-1001, sheet: P-101, service: Natural gas pressure at the battery limit (NG-1001)}
+  - {tag: US-1001, sheet: P-101, service: "Feed gas trip logic, closes XV-1001 (C&E I-101)"}
+  - {tag: FIC-1002, sheet: P-101, service: "Process natural gas flow (plant load), FV-1002"}
+  - {tag: TI-1003, sheet: P-101, service: Desulphuriser V-101 inlet temperature}
+  - {tag: PDI-1004, sheet: P-101, service: Desulphuriser V-101 bed differential pressure}
+  - {tag: AI-1005, sheet: P-101, service: Total sulphur after V-101 (NG-1004)}
+  - {tag: FIC-1006, sheet: P-101, service: "Process steam flow, ratio to FIC-1002 (steam to carbon), FV-1006"}
+  - {tag: FZ-1007, sheet: P-101, service: "Process steam flow, low-low trip of the feed gas (C&E I-101)"}
+  - {tag: TI-1008, sheet: P-101, service: Prereformer R-100 inlet temperature}
+  - {tag: PDI-1009, sheet: P-101, service: Prereformer R-100 bed differential pressure}
+  - {tag: TI-1010, sheet: P-101, service: Prereformer R-100 outlet temperature}
+  # ---- P-102 reformer furnace
+  - {tag: PIC-1101, sheet: P-102, service: "Fuel gas pressure to the burners, PV-1101; setpoint from TIC-1103"}
+  - {tag: US-1102, sheet: P-102, service: "Fuel gas trip logic, closes XV-1102 (C&E I-102)"}
+  - {tag: TIC-1103, sheet: P-102, service: "Primary reformer outlet temperature (PG-1009), resets PIC-1101"}
+  - {tag: FI-1104, sheet: P-102, service: Tail gas flow to the burners (FG-1010)}
+  - {tag: US-1105, sheet: P-102, service: "Tail gas trip logic, closes XV-1105 (C&E I-102)"}
+  - {tag: TI-1106, sheet: P-102, service: Primary reformer inlet temperature (PG-1008)}
+  - {tag: PIC-1107, sheet: P-102, service: "Furnace draft (H-101 arch pressure), acts on the K-103 speed"}
+  - {tag: PZ-1108, sheet: P-102, service: "Furnace pressure, high-high trip of the firing (C&E I-102)"}
+  - {tag: AIC-1109, sheet: P-102, service: "O2 in the flue gas after the convection section, resets FIC-1110"}
+  - {tag: FIC-1110, sheet: P-102, service: "Combustion air flow, damper FV-1108"}
+  - {tag: TI-1111, sheet: P-102, service: Flue gas temperature leaving the radiant section (FL-1014)}
+  - {tag: TI-1112, sheet: P-102, service: Flue gas temperature to the stack (FL-1021)}
+  - {tag: TI-1113, sheet: P-102, service: Preheated process air temperature (PA-1023)}
+  # ---- P-103 process air, secondary reformer, HT shift
+  - {tag: FIC-1201, sheet: P-103, service: "Process air flow, suction throttle FV-1201; setpoint from the H2/N2 ratio"}
+  - {tag: UIC-1202, sheet: P-103, service: "K-101 anti-surge control, blow-off valve FV-1202"}
+  - {tag: PI-1203, sheet: P-103, service: K-101 discharge pressure}
+  - {tag: US-1204, sheet: P-103, service: "Process air trip logic, closes XV-1204 (C&E I-103)"}
+  - {tag: TZ-1205, sheet: P-103, service: "Secondary reformer outlet temperature, high-high trip of the process air (C&E I-103)"}
+  - {tag: TI-1206, sheet: P-103, service: Secondary reformer R-102 bed temperature}
+  - {tag: TIC-1207, sheet: P-103, service: "HT shift inlet temperature, E-105 hot bypass TV-1207"}
+  - {tag: AI-1208, sheet: P-103, service: Methane slip after the secondary reformer (PG-1033)}
+  - {tag: PDI-1209, sheet: P-103, service: HT shift converter R-201 bed differential pressure}
+  - {tag: TI-1210, sheet: P-103, service: HT shift outlet temperature (PG-1034)}
+  - {tag: TI-1211, sheet: P-103, service: E-201 gas outlet temperature (PG-1035)}
+  # ---- P-104 LT shift and gas cooling
+  - {tag: TI-1301, sheet: P-104, service: LT shift converter R-202 inlet temperature}
+  - {tag: TI-1302, sheet: P-104, service: LT shift converter R-202 outlet temperature}
+  - {tag: PDI-1303, sheet: P-104, service: LT shift converter R-202 bed differential pressure}
+  - {tag: AI-1304, sheet: P-104, service: CO slip after the LT shift (PG-1044)}
+  - {tag: TI-1305, sheet: P-104, service: Process gas temperature after E-202 (PG-1045)}
+  - {tag: TIC-1306, sheet: P-104, service: "Process gas temperature to V-201, cooling water valve TV-1306"}
+  - {tag: LIC-1307, sheet: P-104, service: "V-201 condensate level, LV-1307"}
+  - {tag: LZ-1308, sheet: P-104, service: "V-201 level, high-high (liquid carry-over to C-301, C&E I-104)"}
+  - {tag: PI-1309, sheet: P-104, service: Raw synthesis gas pressure to the CO2 absorber (PG-1047)}
+  # ---- P-105 CO2 absorber and lean solvent (S3b, D-028)
+  - {tag: FI-1401, sheet: P-105, service: Raw synthesis gas flow to C-301 (PG-1047)}
+  - {tag: PDI-1402, sheet: P-105, service: C-301 differential pressure (foaming / flooding)}
+  - {tag: AI-1403, sheet: P-105, service: CO2 slip in the treated gas (PG-1056)}
+  - {tag: PI-1404, sheet: P-105, service: Treated gas pressure (PG-1056)}
+  - {tag: LIC-1405, sheet: P-105, service: "C-301 sump level, rich solvent valve LV-1405"}
+  - {tag: LZ-1406, sheet: P-105, service: "C-301 sump level, low-low (gas blow-by to C-302, C&E I-105), XV-1406"}
+  - {tag: FIC-1407, sheet: P-105, service: "Lean solvent flow to C-301, FV-1407"}
+  - {tag: TIC-1408, sheet: P-105, service: "Lean solvent temperature to C-301, cooling water valve TV-1408"}
+  - {tag: TI-1409, sheet: P-105, service: Treated gas temperature (PG-1056)}
+  # ---- P-106 CO2 regenerator (S3b, D-028)
+  - {tag: PIC-1505, sheet: P-106, service: "Regenerator pressure, CO2 vent valve PV-1505"}
+  - {tag: LIC-1506, sheet: P-106, service: "V-302 level, reflux valve LV-1506"}
+  - {tag: LI-1507, sheet: P-106, service: C-302 sump level (solvent inventory)}
+  - {tag: FIC-1508, sheet: P-106, service: "Make-up water flow to V-302, FV-1508"}
+  - {tag: TI-1509, sheet: P-106, service: C-302 overhead temperature (CO2-1066)}
+  - {tag: TI-1510, sheet: P-106, service: Rich solvent temperature after E-301 (AM-1065)}
+  - {tag: TI-1511, sheet: P-106, service: E-303 outlet temperature (CO2-1067)}
+  # ---- P-107 methanation and drying (S3b, D-028)
+  - {tag: TIC-1601, sheet: P-107, service: "LT shift inlet temperature (PG-1043), E-401 hot bypass valve TV-1601"}
+  - {tag: TI-1602, sheet: P-107, service: HTS effluent temperature to E-401 (PG-1035)}
+  - {tag: TI-1603, sheet: P-107, service: Methanator inlet temperature (PG-1077)}
+  - {tag: AI-1604, sheet: P-107, service: CO and CO2 in the treated gas to the methanator (PG-1056)}
+  - {tag: TZ-1605, sheet: P-107, service: "R-401 bed temperature, high-high (C&E I-106), XV-1604"}
+  - {tag: TI-1606, sheet: P-107, service: R-401 bed temperature}
+  - {tag: AI-1607, sheet: P-107, service: CO and CO2 after the methanator (PG-1078)}
+  - {tag: TIC-1608, sheet: P-107, service: "Gas temperature to V-401, cooling water valve TV-1608"}
+  - {tag: LIC-1609, sheet: P-107, service: "V-401 condensate level, LV-1609"}
+  - {tag: AI-1610, sheet: P-107, service: Moisture in the dry make-up gas (PG-1081)}
+  - {tag: PI-1611, sheet: P-107, service: Synthesis gas pressure to X-401 (PG-1080)}
+  # ---- P-108 synthesis gas compressor (S3b, D-028)
+  - {tag: PI-1701, sheet: P-108, service: K-501 suction pressure}
+  - {tag: FI-1702, sheet: P-108, service: Dry make-up gas flow (PG-1081)}
+  - {tag: UIC-1703, sheet: P-108, service: "K-501 anti-surge controller, recycle valve UV-1703"}
+  - {tag: PI-1704, sheet: P-108, service: K-501 discharge pressure (PG-1088)}
+  - {tag: TI-1705, sheet: P-108, service: K-501 discharge temperature (PG-1088)}
+  - {tag: FI-1706, sheet: P-108, service: Recovered hydrogen flow (PG-1087)}
+  # ---- P-109 synthesis loop and converter (S3c, D-029)
+  - {tag: UIC-1802, sheet: P-109, service: "K-502 anti-surge controller on the suction flow, recycle valve UV-1802"}
+  - {tag: TIC-1803, sheet: P-109, service: "Converter inlet temperature (PG-1096), E-501 cold-side bypass TV-1803"}
+  - {tag: AIC-1804, sheet: P-109, service: "H2/N2 ratio of the converter feed (PG-1096); master of the process air FIC-1201 (D-030)"}
+  - {tag: TI-1805, sheet: P-109, service: R-501 bed 1 temperature}
+  - {tag: TI-1806, sheet: P-109, service: R-501 bed 2 temperature}
+  - {tag: TI-1807, sheet: P-109, service: R-501 bed 3 temperature}
+  - {tag: TI-1808, sheet: P-109, service: Converter outlet temperature (PG-1098)}
+  - {tag: PI-1809, sheet: P-109, service: Converter feed pressure (PG-1096)}
+  - {tag: TI-1810, sheet: P-109, service: E-501 hot-side inlet temperature (PG-1099)}
+  - {tag: TI-1811, sheet: P-109, service: E-501 hot-side outlet temperature (PG-1102)}
+  # ---- P-110 loop chilling and separation
+  - {tag: TI-1901, sheet: P-110, service: E-503 outlet temperature (PG-1105)}
+  - {tag: LIC-1903, sheet: P-110, service: "V-501 level, let-down valve LV-1903"}
+  - {tag: LZ-1904, sheet: P-110, service: "V-501 level low-low trip, XV-1904 (C&E I-107)"}
+  - {tag: FIC-1905, sheet: P-110, service: "Loop purge flow (PG-1109), FV-1905"}
+  - {tag: PIC-1906, sheet: P-110, service: "V-502 pressure, let-down gas valve PV-1906"}
+  - {tag: LIC-1907, sheet: P-110, service: "V-502 level, LV-1907 to V-701"}
+  - {tag: LIC-1908, sheet: P-110, service: "E-504 refrigerant level, LV-1908"}
+  - {tag: TI-1909, sheet: P-110, service: Separator inlet temperature (PG-1107)}
+  - {tag: PI-1910, sheet: P-110, service: V-501 (loop) pressure (PG-1108)}
+  # ---- P-111 product flash and refrigeration
+  - {tag: PI-2001, sheet: P-111, service: V-701 pressure (AG-1121)}
+  - {tag: TI-2002, sheet: P-111, service: Liquid ammonia product temperature (AL-1128)}
+  - {tag: FQI-2003, sheet: P-111, service: Liquid ammonia product flow to storage (AL-1128)}
+  - {tag: PI-2004, sheet: P-111, service: K-701 chiller suction pressure (AG-1118)}
+  - {tag: LIC-2005, sheet: P-111, service: "V-701 level, product valve LV-2005"}
+  - {tag: PIC-2007, sheet: P-111, service: "Receiver vent pressure (PG-1126), PV-2007"}
+  - {tag: TI-2008, sheet: P-111, service: E-701 condensate temperature (AL-1123)}
+  # ---- P-112 purge gas recovery
+  - {tag: PI-2101, sheet: P-112, service: X-601 feed pressure (PG-1126)}
+  - {tag: FI-2102, sheet: P-112, service: Let-down gas flow to X-601 (PG-1113)}
+  - {tag: AI-2103, sheet: P-112, service: H2 content of the recovered gas (PG-1087)}
+  - {tag: PIC-2104, sheet: P-112, service: "Tail gas pressure to the burners (FG-1010), PV-2104"}
+  - {tag: FI-2105, sheet: P-112, service: Recovered hydrogen-rich gas flow (PG-1087)}
+  - {tag: FIC-2106, sheet: P-112, service: "LP steam to the NH3 distillation (SL-1135), FV-2106"}
+  - {tag: TI-2107, sheet: P-112, service: Recovered NH3 temperature (AL-1129)}
+  # ---- P-113 steam system and BFW
+  - {tag: LIC-2201, sheet: P-113, service: "Steam drum level, BFW valve LV-2201"}
+  - {tag: LIC-2202, sheet: P-113, service: "Deaerator level, make-up water valve LV-2202"}
+  - {tag: PIC-2203, sheet: P-113, service: "MP steam header pressure, export valve PV-2203"}
+  - {tag: FQI-2204, sheet: P-113, service: MP steam export flow (SM-1140)}
+  - {tag: TI-2205, sheet: P-113, service: MP steam temperature (SM-1005)}
+  - {tag: PIC-2206, sheet: P-113, service: "LP steam pressure, let-down valve PV-2206"}
+  - {tag: FI-2207, sheet: P-113, service: Boiler blowdown flow (BD-1141)}
+  - {tag: FI-2208, sheet: P-113, service: Demineralised make-up water flow (DW-1137)}
+  - {tag: FI-2209, sheet: P-113, service: Boiler feed water flow (BW-1139)}
+  # ---- P-114 cooling water and flare headers
+  - {tag: TI-2301, sheet: P-114, service: Cooling water supply temperature (CWS-1144)}
+  - {tag: PI-2302, sheet: P-114, service: Cooling water supply pressure (CWS-1144)}
+  - {tag: TI-2303, sheet: P-114, service: Cooling water return temperature (CWR-1145)}

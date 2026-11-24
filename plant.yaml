@@ -1,0 +1,50 @@
+# The root of this plant repository. Schema: `cheme schema plant`.
+schema: cheme/plant/v1
+name: "Ammonia (natural-gas Haber-Bosch)"
+# The oldest cheme-as-code this repository works with; an older one stops with an upgrade hint.
+requires: cheme-as-code>=0.8
+description: "Concept design of a 1500 t/d natural-gas ammonia plant (steam reforming, air-fed secondary reformer, shift, aMDEA CO2 removal, methanation, Haber-Bosch loop, purge recovery); issue ChemE-as-Code/process-library#304."
+units: SI
+stage: concept
+stages:
+  - {id: concept, title: Concept and feasibility}
+  - {id: basic, title: Basic engineering}
+  - {id: detail, title: Detail engineering}
+# Where the plant's issues are tracked (optional): actions, engineering holds, technical
+# queries and design changes as GitHub issues with the engineering labels of cheme-as-code's
+# docs/framework/issues.md; `cheme issues` lists them, the gates of kind issues use them.
+# issues: {repository: your-org/your-plant, label: "process:your-plant",
+#          forms: {action: 1-action-item.yml, hold: 2-engineering-hold.yml}}
+# Title-block data for `cheme sheet new` (optional):
+# project: {number: "24-017", client: "", site: "", revision: A}
+# P&ID sheets, DEXPI 2.0.1 XML. Empty: every pid/*.xml. A sheet not drawn yet is
+# `status: planned` (no file needed); `cheme sheet new P-01` starts it.
+sheets:
+  - {id: BFD, kind: bfd, file: process/BFD.xml, title: Block flow diagram}
+  - {id: PFD, kind: pfd, file: process/PFD.xml, title: Process flow diagram}
+  # Front end (S3a, D-027): blocks REF and SHF of the flowsheet
+  - {id: P-101, file: pid/P-101.xml, title: Feed gas and prereforming}
+  - {id: P-102, file: pid/P-102.xml, title: Reformer furnace}
+  - {id: P-103, file: pid/P-103.xml, title: "Secondary reformer, HT shift"}
+  - {id: P-104, file: pid/P-104.xml, title: LT shift and gas cooling}
+  # Mid section (S3b, D-028): blocks CO2R and MET, compressor K-501 of SYN
+  - {id: P-105, file: pid/P-105.xml, title: CO2 absorber and lean solvent}
+  - {id: P-106, file: pid/P-106.xml, title: CO2 regenerator}
+  - {id: P-107, file: pid/P-107.xml, title: Methanation and drying}
+  - {id: P-108, file: pid/P-108.xml, title: Synthesis gas compressor}
+  # Loop and utilities (S3c, D-029): blocks SYN (without K-501), PGR and STM; CW and flare headers
+  - {id: P-109, file: pid/P-109.xml, title: Synthesis loop and converter}
+  - {id: P-110, file: pid/P-110.xml, title: Loop chilling and separation}
+  - {id: P-111, file: pid/P-111.xml, title: NH3 flash and refrigeration}
+  - {id: P-112, file: pid/P-112.xml, title: Purge gas recovery}
+  - {id: P-113, file: pid/P-113.xml, title: Steam system and BFW}
+  - {id: P-114, file: pid/P-114.xml, title: CW and flare headers}
+#  - {id: P-01, file: pid/P-01.xml, title: Feed and reaction, status: planned}
+# The block and process flow diagrams are generated from process/flowsheet.yaml by
+# `cheme process build` (skill `process-design`); declare them by kind:
+#  - {id: BFD, kind: bfd, file: process/BFD.xml, title: Block flow diagram}
+#  - {id: PFD, kind: pfd, file: process/PFD.xml, title: Process flow diagram}
+# A generated sheet names its generator (script and the frame it starts from, a commit or a
+# file); it is then rebuilt with `cheme regen P-02`, never edited by hand:
+#  - {id: P-02, file: pid/P-02.xml, title: Utilities,
+#     generator: {script: scripts/draft_P-02.py, frame: 1a2b3c4}}

@@ -1,0 +1,279 @@
+# Line list. Schema: `cheme schema lines`.
+# Front end (S3a, sheets P-101 to P-104, D-027). Line number <fluid code>-<serial>; DN from a
+# first-pass velocity on the design-case stream (ideal-gas density): process gas and air
+# 20 m/s, MP steam 30 m/s, low-pressure air and flue gas ducts 15 m/s, liquids 1.5 m/s
+# (ASSUMED velocities, D-027). Ducts above DN 1600 carry an equivalent diameter (no DEXPI DN
+# standard). A line drawn on two sheets keeps its number on both (off-page connectors).
+schema: cheme/lines/v1
+lines:
+  # ---- P-101 feed gas, desulphurisation, prereforming (block REF)
+  - {number: NG-1001, from: battery limit, to: E-101, nominal_diameter: DN 150, fluid: Natural gas, sheet: P-101,
+     notes: "S1 to the fuel split, then S3 (process gas) to E-101 on P-102. XV-1001 trip, FV-1002 feed flow."}
+  - {number: FG-1002, from: NG-1001, to: H-101, nominal_diameter: DN 80, fluid: Fuel gas, sheet: P-101,
+     notes: "S2, fuel natural gas from the split tee T1001 to the H-101 burners (P-102)."}
+  - {number: NG-1003, from: E-101, to: V-101, nominal_diameter: DN 200, fluid: Natural gas, sheet: P-102,
+     notes: "S4, preheated natural gas (P-102 to P-101)."}
+  - {number: NG-1004, from: V-101, to: E-102, nominal_diameter: DN 400, fluid: Natural gas, sheet: P-101,
+     notes: "S5 desulphurised gas; process steam SM-1005 joins at T1004, then S7 mixed feed DN 400 to E-102 (P-102).",
+     segments: [{number: S1, nominal_diameter: DN 200}, {number: S2, nominal_diameter: DN 400}]}
+  - {number: SM-1005, from: U-801, to: NG-1004, nominal_diameter: DN 300, fluid: MP steam, sheet: P-101,
+     notes: "S6, process steam; FV-1006 on ratio to the feed (steam to carbon), check valve against back-flow of gas."}
+  - {number: PG-1006, from: E-102, to: R-100, nominal_diameter: DN 450, fluid: Process gas, sheet: P-102,
+     notes: "S8, prereformer feed (P-102 to P-101)."}
+  - {number: PG-1007, from: R-100, to: E-103, nominal_diameter: DN 450, fluid: Process gas, sheet: P-101,
+     notes: "S9, prereformer outlet (P-101 to P-102)."}
+  # ---- P-102 reformer furnace and convection section (block REF)
+  - {number: PG-1008, from: E-103, to: R-101, nominal_diameter: DN 500, fluid: Process gas, sheet: P-102,
+     notes: "S10, primary reformer feed to the tube inlet headers."}
+  - {number: PG-1009, from: R-101, to: R-102, nominal_diameter: DN 700, fluid: Process gas, sheet: P-102,
+     notes: "S11, refractory-lined transfer line, 1083 K (P-102 to P-103)."}
+  - {number: FG-1010, from: X-601, to: H-101, nominal_diameter: DN 125, fluid: Tail gas, sheet: P-102,
+     notes: "S59, purge recovery tail gas to the burners; X-601 is drawn on the loop sheets (S3c)."}
+  - {number: CA-1011, from: atmosphere, to: K-102, nominal_diameter: DN 1800, fluid: Air, sheet: P-102,
+     notes: "S61, combustion air duct; equivalent diameter, ASSUMED."}
+  - {number: CA-1012, from: K-102, to: E-106, nominal_diameter: DN 1800, fluid: Air, sheet: P-102,
+     notes: "S62; equivalent diameter, ASSUMED."}
+  - {number: CA-1013, from: E-106, to: H-101, nominal_diameter: DN 2400, fluid: Air, sheet: P-102,
+     notes: "S63, preheated combustion air to the burners, damper FV-1108; equivalent diameter, ASSUMED."}
+  - {number: FL-1014, from: H-101, to: E-103, nominal_diameter: DN 4000, fluid: Flue gas, sheet: P-102,
+     notes: "S65, radiant to convection section; duct, equivalent diameter, ASSUMED."}
+  - {number: FL-1015, from: E-103, to: E-102, nominal_diameter: DN 3600, fluid: Flue gas, sheet: P-102, notes: "S80; convection duct, ASSUMED."}
+  - {number: FL-1016, from: E-102, to: E-104, nominal_diameter: DN 3400, fluid: Flue gas, sheet: P-102, notes: "S81; convection duct, ASSUMED."}
+  - {number: FL-1017, from: E-104, to: E-101, nominal_diameter: DN 3000, fluid: Flue gas, sheet: P-102, notes: "S82; convection duct, ASSUMED."}
+  - {number: FL-1018, from: E-101, to: E-106, nominal_diameter: DN 2800, fluid: Flue gas, sheet: P-102, notes: "S83; convection duct, ASSUMED."}
+  - {number: FL-1019, from: E-106, to: E-107, nominal_diameter: DN 2400, fluid: Flue gas, sheet: P-102, notes: "S84; convection duct, ASSUMED."}
+  - {number: FL-1020, from: E-107, to: K-103, nominal_diameter: DN 2400, fluid: Flue gas, sheet: P-102, notes: "S66; duct, ASSUMED."}
+  - {number: FL-1021, from: K-103, to: stack, nominal_diameter: DN 2200, fluid: Flue gas, sheet: P-102,
+     notes: "S67 to the stack; the stack is not a listed item yet (layout, S5). Duct, ASSUMED."}
+  - {number: PA-1022, from: K-101, to: E-104, nominal_diameter: DN 250, fluid: Process air, sheet: P-103,
+     notes: "S13, compressed process air (P-103 to P-102); anti-surge blow-off PA-1031 at T1022, check valve."}
+  - {number: PA-1023, from: E-104, to: R-102, nominal_diameter: DN 300, fluid: Process air, sheet: P-102,
+     notes: "S14, preheated process air (P-102 to P-103); trip valve XV-1204 and check valve before R-102."}
+  - {number: BW-1024, from: U-801, to: E-107, nominal_diameter: DN 200, fluid: Boiler feed water, sheet: P-102,
+     notes: "Boiler feed water to the convection steam coil (Q8); flow not in the stream table, DN ASSUMED."}
+  - {number: BW-1025, from: E-107, to: U-801, nominal_diameter: DN 200, fluid: Boiler feed water, sheet: P-102,
+     notes: "Heated boiler feed water back to the steam system; DN ASSUMED."}
+  # ---- P-103 process air, secondary reformer, HT shift (blocks REF, SHF)
+  - {number: PA-1030, from: atmosphere, to: K-101, nominal_diameter: DN 1200, fluid: Air, sheet: P-103,
+     notes: "S12, process air from the intake filter; suction throttle FV-1201."}
+  - {number: PA-1031, from: PA-1022, to: atmosphere, nominal_diameter: DN 150, fluid: Process air, sheet: P-103,
+     notes: "K-101 anti-surge blow-off through FV-1202 and a silencer; DN ASSUMED (no surge study)."}
+  - {number: PA-1054, from: PA-1022, to: atmosphere, nominal_diameter: DN 100, fluid: Process air, sheet: P-103,
+     notes: "PSV-1212 K-101 discharge relief, upstream of the check valve; DN ASSUMED. Relief load 67,184 kg/h (D-033): DN too small, to be sized with the orifice and back pressure (relief study R-5)."}
+  - {number: PG-1032, from: R-102, to: E-105, nominal_diameter: DN 900, fluid: Process gas, sheet: P-103,
+     notes: "S17, secondary reformer outlet, 1265 K, refractory lined."}
+  - {number: PG-1033, from: E-105, to: R-201, nominal_diameter: DN 600, fluid: Process gas, sheet: P-103,
+     notes: "S18, HT shift feed; TIC-1207 by the E-105 hot bypass PG-1036."}
+  - {number: PG-1034, from: R-201, to: E-201, nominal_diameter: DN 700, fluid: Process gas, sheet: P-103, notes: "S19, HT shift outlet."}
+  - {number: PG-1035, from: E-201, to: E-401, nominal_diameter: DN 600, fluid: Process gas, sheet: P-103,
+     notes: "S75, to the methanator feed heater E-401 (CO2 removal and methanation sheets, S3b)."}
+  - {number: PG-1036, from: PG-1032, to: PG-1033, nominal_diameter: DN 400, fluid: Process gas, sheet: P-103,
+     notes: "E-105 hot bypass with TV-1207 (HT shift inlet temperature); DN ASSUMED, no bypass fraction calculated."}
+  - {number: BW-1037, from: U-801, to: E-105, nominal_diameter: DN 450, fluid: Boiler water, sheet: P-103,
+     notes: "Downcomer from the steam drum; natural circulation ratio 5 ASSUMED on the E-105 duty (Q10)."}
+  - {number: SM-1038, from: E-105, to: U-801, nominal_diameter: DN 300, fluid: Steam-water mixture, sheet: P-103,
+     notes: "Riser to the steam drum; DN ASSUMED as BW-1037."}
+  - {number: BW-1039, from: U-801, to: E-201, nominal_diameter: DN 200, fluid: Boiler water, sheet: P-103,
+     notes: "Downcomer to E-201 (Q13); circulation ratio 5 ASSUMED."}
+  - {number: SM-1040, from: E-201, to: U-801, nominal_diameter: DN 125, fluid: Steam-water mixture, sheet: P-103, notes: "Riser; DN ASSUMED."}
+  - {number: CWS-1041, from: CW supply, to: K-101, nominal_diameter: DN 300, fluid: Cooling water, sheet: P-103,
+     notes: "K-101 intercoolers (Q2, 6.0 MW), 10 K rise ASSUMED."}
+  - {number: CWR-1042, from: K-101, to: CW return, nominal_diameter: DN 300, fluid: Cooling water, sheet: P-103, notes: "As CWS-1041."}
+  # ---- P-104 LT shift and process gas cooling (block SHF)
+  - {number: PG-1043, from: E-401, to: R-202, nominal_diameter: DN 600, fluid: Process gas, sheet: P-104,
+     notes: "S20, LT shift feed from E-401 (S3b sheets)."}
+  - {number: PG-1044, from: R-202, to: E-202, nominal_diameter: DN 600, fluid: Process gas, sheet: P-104, notes: "S21, LT shift outlet."}
+  - {number: PG-1045, from: E-202, to: E-203, nominal_diameter: DN 500, fluid: Process gas, sheet: P-104, notes: "S22, two-phase."}
+  - {number: PG-1046, from: E-203, to: V-201, nominal_diameter: DN 450, fluid: Process gas, sheet: P-104, notes: "S23, two-phase."}
+  - {number: PG-1047, from: V-201, to: C-301, nominal_diameter: DN 400, fluid: Process gas, sheet: P-104,
+     notes: "S24, raw synthesis gas to the CO2 absorber (S3b sheets)."}
+  - {number: PC-1048, from: V-201, to: U-801, nominal_diameter: DN 125, fluid: Process condensate, sheet: P-104,
+     notes: "S25, process condensate on level control LV-1307 to the condensate stripper in U-801 (S3c)."}
+  - {number: AM-1049, from: C-302, to: E-202, nominal_diameter: DN 600, fluid: aMDEA solution, sheet: P-104,
+     notes: "Regenerator bottoms to the kettle; solvent rate not calculated (D-009), DN ASSUMED."}
+  - {number: AM-1050, from: E-202, to: C-302, nominal_diameter: DN 800, fluid: aMDEA vapour, sheet: P-104,
+     notes: "Reboiler vapour to C-302 (Q15, 20.4 MW); DN ASSUMED."}
+  - {number: AM-1051, from: E-202, to: E-301, nominal_diameter: DN 600, fluid: aMDEA solution, sheet: P-104,
+     notes: "Lean solvent overflow of the kettle to the lean/rich exchanger E-301 (P-106, D-028; was to the C-302 sump in D-027); DN ASSUMED."}
+  - {number: PG-1055, from: V-201, to: flare, nominal_diameter: DN 150, fluid: Process gas, sheet: P-104,
+     notes: "PSV-1310 relief of V-201 and the shift / cooling train to the flare header (S3c); DN ASSUMED. Relief load 139,409 kg/h (D-033): DN too small (relief study R-5)."}
+  - {number: CWS-1052, from: CW supply, to: E-203, nominal_diameter: DN 700, fluid: Cooling water, sheet: P-104,
+     notes: "E-203 (Q16, 34.7 MW), 10 K rise ASSUMED."}
+  - {number: CWR-1053, from: E-203, to: CW return, nominal_diameter: DN 700, fluid: Cooling water, sheet: P-104,
+     notes: "TV-1306 (E-203 gas outlet temperature)."}
+  # ---- Mid section (S3b, sheets P-105 to P-108, D-028). Gas DN as in D-027 (20 m/s, ideal gas;
+  # the CO2 vent 15 m/s); solvent lines from the ASSUMED 18 m3 solvent per t CO2 of D-009
+  # (1,313 m3/h on 72.95 t/h CO2 in S28) at 1.5 m/s (DN 600; pump discharges DN 500 at 1.9 m/s),
+  # so their DN are ASSUMED; the regenerator overhead and reflux are not calculated (D-009):
+  # their DN are ASSUMED; cooling water 10 K rise and up to 2.2 m/s (ASSUMED).
+  # P-105 CO2 absorber and lean solvent
+  - {number: PG-1056, from: C-301, to: E-401, nominal_diameter: DN 350, fluid: Process gas, sheet: P-105,
+     notes: "S27, treated synthesis gas to the shell side of E-401 (P-107)."}
+  - {number: AM-1057, from: C-301, to: E-301, nominal_diameter: DN 600, fluid: aMDEA solution (rich), sheet: P-105,
+     notes: "Rich solvent on LV-1405 (level) with the trip valve XV-1406 (C&E I-105) to E-301 (P-106); DN ASSUMED (from the ASSUMED solvent ratio of D-009); flashing after LV-1405 not assessed."}
+  - {number: AM-1058, from: E-301, to: P-301A, nominal_diameter: DN 600, fluid: aMDEA solution (lean), sheet: P-106,
+     notes: "Lean solvent from E-301 to the pump suction header (P-105); DN ASSUMED."}
+  - {number: AM-1061, from: AM-1058, to: P-301B, nominal_diameter: DN 600, fluid: aMDEA solution (lean), sheet: P-105,
+     notes: "Suction of the spare pump; DN ASSUMED."}
+  - {number: AM-1059, from: P-301A, to: E-302, nominal_diameter: DN 500, fluid: aMDEA solution (lean), sheet: P-105,
+     notes: "Lean solvent pump discharge (3100 kPa(a) and above); DN ASSUMED."}
+  - {number: AM-1062, from: P-301B, to: AM-1059, nominal_diameter: DN 500, fluid: aMDEA solution (lean), sheet: P-105,
+     notes: "Discharge of the spare pump; DN ASSUMED."}
+  - {number: AM-1060, from: E-302, to: C-301, nominal_diameter: DN 500, fluid: aMDEA solution (lean), sheet: P-105,
+     notes: "Lean solvent to the absorber top on FV-1407 (FIC-1407), temperature by TV-1408 on the E-302 cooling water; DN ASSUMED."}
+  - {number: CWS-1063, from: CW supply, to: E-302, nominal_diameter: DN 400, fluid: Cooling water, sheet: P-105,
+     notes: "E-302, half of Q18 (21.9 MW for E-302 and E-303) ASSUMED."}
+  - {number: CWR-1064, from: E-302, to: CW return, nominal_diameter: DN 400, fluid: Cooling water, sheet: P-105,
+     notes: "TV-1408 (lean solvent temperature)."}
+  # P-106 CO2 regenerator
+  - {number: AM-1065, from: E-301, to: C-302, nominal_diameter: DN 600, fluid: aMDEA solution (rich), sheet: P-106,
+     notes: "Preheated rich solvent to the regenerator top section; DN ASSUMED."}
+  - {number: CO2-1066, from: C-302, to: E-303, nominal_diameter: DN 1200, fluid: CO2 and water vapour, sheet: P-106,
+     notes: "Regenerator overhead; DN ASSUMED (overhead water and reflux rate not calculated, D-009; about one mole of water per mole of CO2 at 15 m/s assumed)."}
+  - {number: CO2-1067, from: E-303, to: V-302, nominal_diameter: DN 1200, fluid: CO2 and water (two-phase), sheet: P-106,
+     notes: "Condenser outlet; DN ASSUMED as CO2-1066."}
+  - {number: CO2-1068, from: V-302, to: atmosphere, nominal_diameter: DN 900, fluid: CO2, sheet: P-106,
+     notes: "S28, process CO2 to the vent stack on PV-1505 (regenerator pressure), 15 m/s at 150 kPa(a)."}
+  - {number: PC-1069, from: V-302, to: P-302A, nominal_diameter: DN 100, fluid: Reflux water, sheet: P-106,
+     notes: "Reflux pump suction header; DN ASSUMED (reflux rate not calculated)."}
+  - {number: PC-1070, from: PC-1069, to: P-302B, nominal_diameter: DN 100, fluid: Reflux water, sheet: P-106,
+     notes: "Suction of the spare reflux pump; DN ASSUMED."}
+  - {number: PC-1071, from: P-302A, to: C-302, nominal_diameter: DN 100, fluid: Reflux water, sheet: P-106,
+     notes: "Reflux on LV-1506 (V-302 level); DN ASSUMED."}
+  - {number: PC-1072, from: P-302B, to: PC-1071, nominal_diameter: DN 100, fluid: Reflux water, sheet: P-106,
+     notes: "Discharge of the spare reflux pump; DN ASSUMED."}
+  - {number: DW-1073, from: DMW, to: V-302, nominal_diameter: DN 25, fluid: Demineralised water, sheet: P-106,
+     notes: "S26, solvent loop make-up water on FV-1508 (1.5 t/h at 1.5 m/s needs DN 20; DN 25 minimum ASSUMED). Low-point drain at the foot of the grade leg (X-401/CP-203 gap, on sleepers): tee DW1073_LPD and DN 25 ball valve, segment S3, drawn on P-106 (D-047, ASSUMED)."}
+  - {number: CWS-1074, from: CW supply, to: E-303, nominal_diameter: DN 400, fluid: Cooling water, sheet: P-106,
+     notes: "E-303, half of Q18 ASSUMED."}
+  - {number: CWR-1075, from: E-303, to: CW return, nominal_diameter: DN 400, fluid: Cooling water, sheet: P-106}
+  - {number: CO2-1076, from: C-302, to: atmosphere, nominal_diameter: DN 150, fluid: CO2, sheet: P-106,
+     notes: "PSV-1513 discharge; DN ASSUMED. Relief load not established (LV-1405 blow-by, indicative 127,000 kg/h; blocked vent 74,528 kg/h, D-033): DN too small (relief study R-5)."}
+  # P-107 methanation and drying
+  - {number: PG-1077, from: E-401, to: R-401, nominal_diameter: DN 500, fluid: Process gas, sheet: P-107,
+     notes: "S29, methanator feed, with the trip valve XV-1604 (C&E I-106)."}
+  - {number: PG-1078, from: R-401, to: E-402, nominal_diameter: DN 500, fluid: Process gas, sheet: P-107, notes: "S30."}
+  - {number: PG-1079, from: E-402, to: V-401, nominal_diameter: DN 350, fluid: Process gas, sheet: P-107, notes: "S31, two-phase."}
+  - {number: PG-1080, from: V-401, to: X-401, nominal_diameter: DN 350, fluid: Process gas, sheet: P-107, notes: "S32."}
+  - {number: PG-1081, from: X-401, to: K-501, nominal_diameter: DN 350, fluid: Synthesis gas, sheet: P-107,
+     notes: "S34 dry make-up gas to P-108, where the recovered hydrogen PG-1087 joins it (M501): S37 to the K-501 suction (DN 350 at 20.1 m/s)."}
+  - {number: PG-1082, from: PG-1035, to: PG-1043, nominal_diameter: DN 300, fluid: Process gas, sheet: P-107,
+     notes: "E-401 hot-side bypass on TV-1601 (LT shift inlet temperature); DN ASSUMED (bypass fraction not calculated)."}
+  - {number: PC-1083, from: V-401, to: U-801, nominal_diameter: DN 25, fluid: Process condensate, sheet: P-107,
+     notes: "S33 on LV-1609 to the steam system (S3c); DN 25 minimum ASSUMED. Low-point drain at the foot of the riser west of PR-8 (grade run on sleepers east of V-401): DN 25 ball valve, ASSUMED, to be drawn on P-107 (D-047)."}
+  - {number: PC-1084, from: X-401, to: U-801, nominal_diameter: DN 25, fluid: Process condensate, sheet: P-107,
+     notes: "S35, dryer regeneration water to the steam system (S3c); DN 25 minimum ASSUMED. Low-point drain at the foot of the riser leaving the grade run (X-401/CP-203 gap, on sleepers): DN 25 ball valve, ASSUMED, to be drawn on P-107 (D-047)."}
+  - {number: CWS-1085, from: CW supply, to: E-402, nominal_diameter: DN 500, fluid: Cooling water, sheet: P-107, notes: "E-402 (Q19, 17.7 MW)."}
+  - {number: CWR-1086, from: E-402, to: CW return, nominal_diameter: DN 500, fluid: Cooling water, sheet: P-107,
+     notes: "TV-1608 (V-401 inlet temperature)."}
+  # P-108 synthesis gas compressor
+  - {number: PG-1087, from: X-601, to: K-501, nominal_diameter: DN 50, fluid: Hydrogen-rich gas, sheet: P-108,
+     notes: "S36, recovered hydrogen from the X-601 package (S3c) into PG-1081 (M501)."}
+  - {number: PG-1088, from: K-501, to: synthesis loop, nominal_diameter: DN 200, fluid: Synthesis gas, sheet: P-108,
+     notes: "S38, compressed make-up gas (14,600 kPa(a), after the aftercooler in the package) to M502 (S3c); spec break at the discharge."}
+  - {number: PG-1089, from: PG-1088, to: PG-1081, nominal_diameter: DN 150, fluid: Synthesis gas, sheet: P-108,
+     notes: "K-501 anti-surge recycle on UV-1703; DN ASSUMED (surge flow not calculated)."}
+  - {number: PG-1090, from: K-501, to: flare, nominal_diameter: DN 150, fluid: Synthesis gas, sheet: P-108,
+     notes: "PSV-1704 discharge to the flare header (S3c); DN ASSUMED. Relief load 65,958 kg/h (D-033): DN too small (relief study R-5)."}
+  - {number: CWS-1091, from: CW supply, to: K-501, nominal_diameter: DN 450, fluid: Cooling water, sheet: P-108, notes: "K-501 intercoolers and aftercooler (Q21, 12.9 MW)."}
+  - {number: CWR-1092, from: K-501, to: CW return, nominal_diameter: DN 450, fluid: Cooling water, sheet: P-108}
+  # Loop and utilities (S3c, sheets P-109 to P-114, D-029). Serials 1093-1146 (1094, 1103,
+  # 1110, 1112 not used). AL liquid ammonia, AG ammonia vapour, SL LP steam, BD blowdown, FLR
+  # relief gas. Gas DN at 20 m/s, liquids 1.5 m/s, MP and LP steam 30 m/s, ideal-gas density,
+  # liquid NH3 density from thermo (ASSUMED velocities, D-027); refrigerant flows from the
+  # simulated chiller duties (scripts/packages_on_simulated_duties.py levels, D-029).
+  # ---- P-109 synthesis loop and converter (block SYN)
+  - {number: PG-1093, from: E-505, to: K-502, nominal_diameter: DN 300, fluid: Synthesis gas, sheet: P-109,
+     notes: "S39 warm recycle gas (P-110 to P-109), the make-up gas PG-1088 joins at T1093A (M502), then S40 circulator suction (0.297 m at 20 m/s)."}
+  - {number: PG-1095, from: K-502, to: E-501, nominal_diameter: DN 300, fluid: Synthesis gas, sheet: P-109,
+     notes: "S41 circulator discharge to the E-501 shell."}
+  - {number: PG-1096, from: E-501, to: R-501, nominal_diameter: DN 400, fluid: Synthesis gas, sheet: P-109,
+     notes: "S42 converter feed, 494 K; the bypass PG-1097 joins at T1096."}
+  - {number: PG-1097, from: PG-1095, to: PG-1096, nominal_diameter: DN 150, fluid: Synthesis gas, sheet: P-109,
+     notes: "E-501 cold-side bypass, TV-1803 (converter inlet temperature); DN ASSUMED, no bypass fraction calculated."}
+  - {number: PG-1098, from: R-501, to: E-502, nominal_diameter: DN 450, fluid: Synthesis gas, sheet: P-109,
+     notes: "S43 converter effluent, 703 K."}
+  - {number: PG-1099, from: E-502, to: E-501, nominal_diameter: DN 400, fluid: Synthesis gas, sheet: P-109,
+     notes: "S44 effluent after the waste heat boiler, 533 K, to the E-501 tubes."}
+  - {number: PG-1102, from: E-501, to: E-503, nominal_diameter: DN 300, fluid: Synthesis gas, sheet: P-109,
+     notes: "S45, 343 K (P-109 to P-110)."}
+  - {number: BW-1100, from: U-801, to: E-502, nominal_diameter: DN 400, fluid: Boiler water, sheet: P-109,
+     notes: "Downcomer from the steam drum (P-113); circulation ratio 5 ASSUMED on Q23 (43.2 MW, 25.9 kg/s steam at 4600 kPa(a)): 466 t/h at 1.5 m/s."}
+  - {number: SM-1101, from: E-502, to: U-801, nominal_diameter: DN 250, fluid: Steam-water mixture, sheet: P-109,
+     notes: "Riser to the steam drum; DN ASSUMED in the riser/downcomer ratio of SM-1038/BW-1037 (D-027)."}
+  - {number: PG-1104, from: PG-1095, to: PG-1093, nominal_diameter: DN 150, fluid: Synthesis gas, sheet: P-109,
+     notes: "K-502 anti-surge recycle, UV-1802; DN ASSUMED."}
+  # ---- P-110 loop chilling and separation (block SYN)
+  - {number: PG-1105, from: E-503, to: E-505, nominal_diameter: DN 300, fluid: Synthesis gas (two-phase), sheet: P-110, notes: "S46, 313 K."}
+  - {number: PG-1106, from: E-505, to: E-504, nominal_diameter: DN 300, fluid: Synthesis gas (two-phase), sheet: P-110, notes: "S47, 302 K."}
+  - {number: PG-1107, from: E-504, to: V-501, nominal_diameter: DN 250, fluid: Synthesis gas (two-phase), sheet: P-110, notes: "S48, 263 K."}
+  - {number: PG-1108, from: V-501, to: E-505, nominal_diameter: DN 250, fluid: Synthesis gas, sheet: P-110,
+     notes: "S49 separator gas; purge take-off PG-1109 at T1108 (SPL501), then S51 cold recycle gas to the E-505 shell."}
+  - {number: PG-1109, from: PG-1108, to: X-601, nominal_diameter: DN 25, fluid: Purge gas, sheet: P-110,
+     notes: "S50 loop purge, FV-1905 (20 mm at 20 m/s; DN 25 minimum, ASSUMED)."}
+  - {number: AL-1111, from: V-501, to: V-502, nominal_diameter: DN 150, fluid: Liquid ammonia, sheet: P-110,
+     notes: "S52 separator liquid, XV-1904 trip, LV-1903 let-down (LV501); after the valve S99 is two-phase (0.243 m at 20 m/s): outlet size open with the valve sizing."}
+  - {number: PG-1113, from: V-502, to: X-601, nominal_diameter: DN 40, fluid: Let-down gas, sheet: P-110,
+     notes: "S53, PV-1906 (V-502 pressure); 33 mm at 20 m/s."}
+  - {number: AL-1114, from: V-502, to: V-701, nominal_diameter: DN 150, fluid: Liquid ammonia, sheet: P-110,
+     notes: "S54, LV-1907 (P-110 to P-111)."}
+  - {number: AL-1117, from: K-701, to: E-504, nominal_diameter: DN 200, fluid: Ammonia refrigerant (liquid), sheet: P-110,
+     notes: "Refrigerant from the K-701 receiver (P-111), LV-1908; 21.4 kg/s for Q25 22.5 MW at 258 K, condensing at 313 K (thermo NH3 properties, D-029)."}
+  - {number: AG-1118, from: E-504, to: K-701, nominal_diameter: DN 900, fluid: Ammonia refrigerant (vapour), sheet: P-110,
+     notes: "Chiller vapour at 236 kPa(a) to the K-701 suction (P-111), 0.85 m at 20 m/s; AG-1125 joins on P-111."}
+  - {number: CWS-1115, from: CW supply, to: E-503, nominal_diameter: DN 350, fluid: Cooling water, sheet: P-110, notes: "E-503 (Q24, 7.5 MW)."}
+  - {number: CWR-1116, from: E-503, to: CW return, nominal_diameter: DN 350, fluid: Cooling water, sheet: P-110}
+  - {number: PG-1119, from: V-501, to: flare, nominal_diameter: DN 100, fluid: Synthesis gas, sheet: P-110,
+     notes: "PSV-1911 discharge to the flare header (P-114); DN ASSUMED. Relief load not established (V-501 fire, supercritical, D-033)."}
+  - {number: PG-1120, from: V-502, to: flare, nominal_diameter: DN 80, fluid: Let-down gas, sheet: P-110,
+     notes: "PSV-1912 discharge to the flare header (P-114); DN ASSUMED. Relief load not established (LV-1903 blow-by, indicative 16,000 kg/h, D-033); to be sized with the orifice and back pressure (relief study R-5)."}
+  # ---- P-111 product flash and refrigeration (block SYN)
+  - {number: AG-1121, from: V-701, to: K-701, nominal_diameter: DN 400, fluid: Flash gas, sheet: P-111,
+     notes: "S88 product flash gas at 110 kPa(a) to the flash-gas stages of K-701 (0.361 m at 20 m/s)."}
+  - {number: AG-1122, from: K-701, to: E-701, nominal_diameter: DN 450, fluid: Ammonia refrigerant (vapour), sheet: P-111,
+     notes: "Refrigerant compressor discharge, 23.2 kg/s at 1555 kPa(a); discharge temperature 380 K ASSUMED for the size."}
+  - {number: AL-1123, from: E-701, to: K-701, nominal_diameter: DN 200, fluid: Ammonia refrigerant (liquid), sheet: P-111,
+     notes: "Condensed refrigerant to the receiver in the K-701 package."}
+  - {number: AL-1124, from: AL-1117, to: X-601, nominal_diameter: DN 25, fluid: Ammonia refrigerant (liquid), sheet: P-111,
+     notes: "Refrigerant to the recovered NH3 chiller E601 in X-601 (Q30, 7 kW); DN 25 minimum ASSUMED."}
+  - {number: AG-1125, from: X-601, to: AG-1118, nominal_diameter: DN 25, fluid: Ammonia refrigerant (vapour), sheet: P-111,
+     notes: "Refrigerant vapour from E601 back to the K-701 suction; DN 25 minimum ASSUMED."}
+  - {number: PG-1126, from: K-701, to: X-601, nominal_diameter: DN 40, fluid: Inert vent, sheet: P-111,
+     notes: "S55 refrigeration inert vent from the vent chiller knock-out (V703 in the package), PV-2007 (1700 kPa(a)); 36 mm at 20 m/s."}
+  - {number: AL-1127, from: K-701, to: V-701, nominal_diameter: DN 50, fluid: Liquid ammonia, sheet: P-111,
+     notes: "S93 vent chiller condensate (and S90 receiver liquid, zero in the design case) back to V-701."}
+  - {number: AL-1128, from: V-701, to: battery limit, nominal_diameter: DN 150, fluid: Liquid ammonia, sheet: P-111,
+     notes: "S56 flashed product, LV-2005; recovered NH3 AL-1129 joins at T1129 (M701), then S60 product to storage, 62.5 t/h at 239 K."}
+  - {number: AL-1129, from: X-601, to: AL-1128, nominal_diameter: DN 25, fluid: Liquid ammonia, sheet: P-111,
+     notes: "S58 recovered NH3 (13 mm at 1.5 m/s; DN 25 minimum ASSUMED)."}
+  - {number: CWS-1130, from: CW supply, to: E-701, nominal_diameter: DN 700, fluid: Cooling water, sheet: P-111, notes: "E-701 (Q28, 35.0 MW, ASSUMED package value)."}
+  - {number: CWR-1131, from: E-701, to: CW return, nominal_diameter: DN 700, fluid: Cooling water, sheet: P-111}
+  - {number: CWS-1132, from: CW supply, to: K-701, nominal_diameter: DN 125, fluid: Cooling water, sheet: P-111, notes: "K-701 flash-gas intercooler and cooler (Q33, 0.85 MW)."}
+  - {number: CWR-1133, from: K-701, to: CW return, nominal_diameter: DN 125, fluid: Cooling water, sheet: P-111}
+  - {number: AG-1134, from: V-701, to: flare, nominal_diameter: DN 80, fluid: Ammonia vapour, sheet: P-111,
+     notes: "PSV-2010 discharge to the flare header (P-114); DN ASSUMED. Relief load 10,014 kg/h ammonia vapour, fire (D-033); to be sized with the orifice and back pressure (relief study R-5)."}
+  # ---- P-112 purge gas recovery (block PGR)
+  - {number: SL-1135, from: U-801, to: X-601, nominal_diameter: DN 65, fluid: LP steam, sheet: P-112,
+     notes: "Q29 LP steam to the NH3 distillation (386.8 kW, 0.18 kg/s at 450 kPa(a) ASSUMED), FV-2106."}
+  - {number: PC-1136, from: X-601, to: U-801, nominal_diameter: DN 25, fluid: Steam condensate, sheet: P-112, notes: "LP steam condensate returned (D-015)."}
+  # ---- P-113 steam system and BFW (block STM)
+  - {number: DW-1137, from: battery limit, to: U-801, nominal_diameter: DN 200, fluid: Demineralised water, sheet: P-113,
+     notes: "S70 make-up water, 105.1 t/h, LV-2202 (deaerator level)."}
+  - {number: BW-1138, from: U-801, to: P-801, nominal_diameter: DN 250, fluid: Boiler feed water, sheet: P-113,
+     notes: "BFW pump suction from the deaerator; one size above the discharge (ASSUMED, NPSH not checked)."}
+  - {number: BW-1139, from: P-801, to: U-801, nominal_diameter: DN 200, fluid: Boiler feed water, sheet: P-113,
+     notes: "BFW 156.5 t/h (steam raised plus blowdown) to the steam drum, LV-2201; 0.193 m at 1.5 m/s."}
+  - {number: SM-1140, from: U-801, to: battery limit, nominal_diameter: DN 350, fluid: MP steam, sheet: P-113,
+     notes: "MP steam header, 153.4 t/h raised (0.349 m at 30 m/s); process steam SM-1005 branches at T1005, relief SM-1143 at T1143; S68 export 60.1 t/h through PV-2203 (header pressure), header DN kept to the battery limit."}
+  - {number: BD-1141, from: U-801, to: battery limit, nominal_diameter: DN 32, fluid: Boiler blowdown, sheet: P-113,
+     notes: "S69, 3.1 t/h at the drum temperature."}
+  - {number: CO2-1142, from: U-801, to: CO2 vent stack, nominal_diameter: DN 65, fluid: Stripper overhead (CO2), sheet: P-113,
+     notes: "S87 condensate stripper overhead vented with the process CO2; 52 mm at 15 m/s. Grade dip (X-401/CP-203 gap, on sleepers) collects condensate from the water-saturated gas: drain pot (DN 150 boot, 0.5 m) at the foot of the downstream riser with a DN 25 float drain trap and isolation valve to the process condensate collection of U-801 (closed, not to grade); the dip sloped 1:100 to the pot; pot, trap and drain line heat-traced and insulated against freezing. All ASSUMED, to be drawn on P-113 (D-047)."}
+  - {number: SM-1143, from: SM-1140, to: atmosphere, nominal_diameter: DN 150, fluid: MP steam, sheet: P-113,
+     notes: "PSV-2210 discharge through a silencer; DN ASSUMED. Relief load 92,834 kg/h MP steam (D-033): DN too small (relief study R-5)."}
+  # ---- P-114 cooling water and flare headers
+  - {number: CWS-1144, from: battery limit, to: CW users, nominal_diameter: DN 1400, fluid: Cooling water, sheet: P-114,
+     notes: "Cooling water supply header: 136.5 MW of CW duties at 10 K rise, 3265 kg/s, 1.38 m at 2.2 m/s (D-029)."}
+  - {number: CWR-1145, from: CW users, to: battery limit, nominal_diameter: DN 1400, fluid: Cooling water, sheet: P-114, notes: "Cooling water return header, as CWS-1144."}
+  - {number: FLR-1146, from: V-201, to: flare, nominal_diameter: DN 300, fluid: Relief gas, sheet: P-114,
+     notes: "Flare header from its dead end at V-201 (the first tie-in, PSV-1310 on PG-1055) past the A-500 and A-700 relief tie-ins to the flare at the battery limit (PR-1 east end, D-036); DN ASSUMED. Governing common-cause load about 139 t/h (plant power failure, PSV-1310, D-033): DN 300 too small; header and flare by a flare network calculation (relief study R-5, A34)."}

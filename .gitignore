@@ -1,0 +1,9 @@
+build/
+.venv/
+__pycache__/
+.DS_Store
+# PSI temporary scratch files (bed/psi/cases/*.out is tracked as pipeline evidence)
+/*.err
+/*.out
+/tmp_psi_*.err
+/tmp_psi_*.out

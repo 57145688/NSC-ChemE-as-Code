@@ -1,0 +1,82 @@
+# Site plan of the concept plot plan (D-022). Schema: `cheme schema site_plan`.
+# x east, y north, metres from the south-west corner. A notional Rotterdam-area port plot:
+# plot size, area split, roads, rack and every separation below are ASSUMED screening choices
+# of this design (D-022), to be replaced by the site's own plot and the owner's spacing
+# standard and QRA at basic engineering.
+schema: cheme/site_plan/v1
+site: {name: "ammonia-1 notional plot (Rotterdam area, ASSUMED)", width: 360, depth: 220}
+areas:
+  - {id: A-100, title: "Reforming: desulfurisation, prereformer, furnace, secondary reformer, process air", box: [20, 120, 150, 200], kind: process}
+  - {id: A-200, title: "Shift, CO2 removal, methanation and drying", box: [160, 120, 260, 200], kind: process}
+  - {id: A-800, title: Steam system and boiler feed water, box: [270, 120, 340, 200], kind: utilities}
+  - {id: A-900, title: "Control room, substation, workshops (reserved)", box: [20, 20, 80, 100], kind: reserved}
+  - {id: A-600, title: Purge gas recovery, box: [90, 20, 150, 100], kind: process}
+  - {id: A-500, title: "Synthesis gas compression and ammonia loop", box: [160, 20, 260, 100], kind: process}
+  - {id: A-700, title: "Ammonia refrigeration and product flash", box: [270, 20, 340, 100], kind: process}
+roads:
+  - {id: R-1, title: South perimeter road, points: [[0, 10], [360, 10]], width: 6}
+  - {id: R-2, title: North perimeter road, points: [[0, 210], [360, 210]], width: 6}
+  - {id: R-3, title: West perimeter road, points: [[10, 0], [10, 220]], width: 6}
+  - {id: R-4, title: East perimeter road, points: [[350, 0], [350, 220]], width: 6}
+  - {id: R-5, title: "Access road between A-100/A-600 and A-200/A-500", points: [[155, 0], [155, 220]], width: 6}
+  - {id: R-6, title: "Access road between A-200/A-500 and A-800/A-700", points: [[265, 0], [265, 220]], width: 6}
+racks:
+  # intermediate steel (S10, D-047): a stringer along each edge and a beam across between the
+  # bents, only on the tiers that carry lines whose suggested span (core table after ASME
+  # B31.1, ASSUMED) is shorter than the bay; spacing set by the shortest such span on the rack
+  # (DN 25 liquid 2.1 m -> 2.0 m; DN 32 gas 2.7 m -> 2.5 m; DN 80 to 150 -> 4.0 m). Section
+  # IPE240 ASSUMED (screening: a 10 m stringer with four beam reactions of about 5 kN deflects
+  # about L/300); the structural design sizes it
+  - {id: PR-1, title: Main pipe rack (east-west), points: [[20, 110], [340, 110]], width: 8, levels: [6, 8, 10], bent_spacing_m: 10,
+     intermediate_supports: {spacing_m: 2.0, levels: [10], section: IPE240, notes: "DW-1073, PC-1136 (DN 25 liquid), BD-1141 (DN 32) on the top tier (D-047)"}}
+  # area racks of the basic layout (D-036): a comb on PR-1, so that every nozzle lies within
+  # the 30 m rack reach; widths, tiers and positions ASSUMED (D-036). East-west racks have
+  # their tiers at 6/8(/10) m, north-south racks at 7/9 m, so lines change elevation where
+  # they change direction and cross the other racks' lanes without meeting them.
+  - {id: PR-2, title: "A-100 area rack (east-west, between the reactor row and the furnace)", points: [[30, 142], [146, 142]], width: 6, levels: [6, 8], bent_spacing_m: 7.25,
+     intermediate_supports: {spacing_m: 4.0, levels: [8], section: IPE240, notes: "FG-1002 (DN 80 gas, 4.6 m) on the top tier (D-047)"}}
+  - {id: PR-3, title: "A-100 branch rack (north-south, east edge, to K-101)", points: [[146, 110], [146, 190]], width: 6, levels: [7, 9], bent_spacing_m: 8}
+  - {id: PR-4, title: "A-200 area rack (east-west, between the exchanger row and the columns, over R-6 to PR-5)", points: [[164, 162], [289, 162]], width: 6, levels: [6, 8], bent_spacing_m: 9.6,
+     intermediate_supports: {spacing_m: 2.0, levels: [8], section: IPE240, notes: "DW-1073, PC-1084, PC-1136 (DN 25 liquid) on the top tier; not on tier 6, where its stringers would stand in R-6 below the 6 m headroom (D-047)"}}
+  - {id: PR-8, title: "A-200 branch rack (north-south, east edge, PR-1 to PR-4)", points: [[254, 110], [254, 162]], width: 6, levels: [7, 9], bent_spacing_m: 8,
+     intermediate_supports: {spacing_m: 2.0, levels: [9], section: IPE240, notes: "DW-1073, PC-1083, PC-1136 (DN 25 liquid) on the top tier (D-047)"}}
+  - {id: PR-5, title: "A-800 branch rack (north-south, west of U-801)", points: [[285, 110], [285, 170]], width: 8, levels: [7, 9, 11], bent_spacing_m: 8}
+  - {id: PR-6, title: "South connector (north-south, PR-1 to PR-7, west edge of A-500)", points: [[164, 110], [164, 55]], width: 6, levels: [7, 9], bent_spacing_m: 8}
+  # PR-10: bents every 8 m from y = 54 put one on the PR-1 centreline, as on the other branches
+  - {id: PR-10, title: "West connector (north-south, PR-7 over PR-1 to PR-2, east of X-601 and E-105)", points: [[135, 54], [135, 142]], width: 6, levels: [7, 9], bent_spacing_m: 8}
+  - {id: PR-7, title: "South area rack (east-west through A-600, A-500 and A-700, over R-5 and R-6)", points: [[130, 55], [338, 55]], width: 6, levels: [6, 8], bent_spacing_m: 10,
+     intermediate_supports: {spacing_m: 2.0, levels: [8], section: IPE240, notes: "AL-1124, AL-1129 (DN 25 liquid), AG-1125, PG-1109, PG-1113, PG-1126, AL-1127 on the top tier (D-047)"}}
+  # PR-11 (S5r fix, review 2026-10-29-layout#2): without an east connector the A-500/A-700 exports
+  # to the east battery limit ran west on PR-7 to PR-6 and back east on PR-1
+  - {id: PR-11, title: "East connector (north-south, PR-1 to PR-7, east edge of A-700)", points: [[338, 110], [338, 55]], width: 6, levels: [7, 9], bent_spacing_m: 8}
+separations:
+  # fired equipment
+  - {from: H-101, to: site-boundary, min_m: 30, reason: "fired heater kept off the plot boundary", basis: D-022}
+  - {from: H-101, to: K-501, min_m: 30, reason: "open flame to the hydrogen-rich synthesis gas compressor", basis: D-022}
+  - {from: H-101, to: X-601, min_m: 30, reason: "open flame to the hydrogen and ammonia recovery package", basis: D-022}
+  - {from: H-101, to: K-701, min_m: 30, reason: "open flame to the ammonia refrigeration compressor", basis: D-022}
+  - {from: H-101, to: V-101, min_m: 15, reason: "open flame to the hydrogenated natural gas in the desulfuriser", basis: D-022}
+  - {from: H-101, to: A-900, min_m: 30, reason: "fired heater to the control room and substation plot", basis: D-022}
+  # parts of the furnace: the package's 15 m fired-equipment spacing does not apply to them
+  - {from: H-101, to: E-101, min_m: 1, reason: "convection coil bank of H-101", basis: D-022}
+  - {from: H-101, to: E-102, min_m: 1, reason: "convection coil bank of H-101", basis: D-022}
+  - {from: H-101, to: E-103, min_m: 1, reason: "convection coil bank of H-101", basis: D-022}
+  - {from: H-101, to: E-104, min_m: 1, reason: "convection coil bank of H-101", basis: D-022}
+  - {from: H-101, to: E-107, min_m: 1, reason: "convection coil bank of H-101", basis: D-022}
+  - {from: H-101, to: E-106, min_m: 1, reason: "combustion air preheater in the H-101 flue gas duct", basis: D-022}
+  # toppling of tall items
+  - {from: C-301, to: PR-1, min_factor_of_height: 1, reason: toppling, basis: D-022}
+  - {from: C-302, to: PR-1, min_factor_of_height: 1, reason: toppling, basis: D-022}
+  - {from: R-501, to: PR-1, min_factor_of_height: 1, reason: toppling, basis: D-022}
+  - {from: R-501, to: K-501, min_factor_of_height: 1, reason: toppling, basis: D-022}
+  - {from: X-601, to: PR-1, min_factor_of_height: 1, reason: "toppling of the cold box", basis: D-022}
+  # toxic ammonia and hydrogen inventories
+  - {from: V-701, to: site-boundary, min_m: 30, reason: "refrigerated ammonia inventory kept off the boundary", basis: D-022}
+  - {from: K-701, to: site-boundary, min_m: 30, reason: "ammonia refrigeration kept off the boundary", basis: D-022}
+  - {from: V-501, to: site-boundary, min_m: 30, reason: "loop separator ammonia inventory kept off the boundary", basis: D-022}
+  - {from: A-900, to: K-501, min_m: 60, reason: "control room plot to the high-pressure hydrogen compressor", basis: D-022}
+  - {from: A-900, to: V-701, min_m: 60, reason: "control room plot to the ammonia inventory", basis: D-022}
+notes: >-
+  ASSUMED: notional plot, roads, rack and spacing criteria (D-022); no site survey, no QRA, no
+  owner's spacing standard yet. Roads on all four sides and two north-south access roads give
+  every area fire-fighting access from at least two sides.
